@@ -5,13 +5,27 @@ body {
   font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace" !important;
 }
 
-#latestProject .card {
+#latestProject .card , #oldProject .card {
   border-radius: 0.9rem;
   overflow: hidden;
 }
-#oldProject .card {
-  border-radius: 0.9rem;
-  overflow: hidden;
+#oldProjectBG{
+	background-color: #1313C6;
+	color: aliceblue;
+}
+#oldProjectBG h5{
+	color: #000;
+}
+#oldProject .card:hover, #latestProject .card:hover{
+  display: block;
+  /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+  background-color: #fff;
+	filter: brightness(90%);
+}
+#oldProject .card .card-body {
+  background-color: transparent;
 }
 .navbar-nav .nav-item #nav-activ {
   color: #000;
