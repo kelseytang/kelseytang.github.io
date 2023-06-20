@@ -5,6 +5,10 @@ body {
   font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace" !important;
 }
 
+#latestProject img {
+  border-radius: 0.9rem;
+}
+
 #latestProject .card , #oldProject .card {
   border-radius: 0.9rem;
   overflow: hidden;
