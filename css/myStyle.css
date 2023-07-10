@@ -4,6 +4,18 @@ body {
   background-color: #F4F7F8;
   font-family: 'Open Sans', sans-serif;
 }
+#myMobileNavBar{
+	background-color: #fff;
+	padding: 10px 40px 10px 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 16px;
+	box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 4px;
+	vertical-align: middle;
+	
+}
 #myNavBar {
   border-bottom: thin solid #CDCDCD;
   background-color: #fff;
@@ -69,7 +81,7 @@ body {
 	
 }
 .latestProject-group:hover{	
-	filter: brightness(110%);
+	filter: brightness(90%);
 	background-color: #FFF6EF;
 }
 
@@ -119,6 +131,7 @@ body {
   font-size: 0.85rem;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+	padding-bottom: 100px;
 }
 #myFooter-nav {
   margin-left: 2rem;
