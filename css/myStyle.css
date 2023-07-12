@@ -4,17 +4,16 @@ body {
   background-color: #F4F7F8;
   font-family: 'Open Sans', sans-serif;
 }
-#myMobileNavBar{
-	background-color: #fff;
-	padding: 10px 40px 10px 40px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	border-radius: 16px;
-	box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 4px;
-	vertical-align: middle;
-	
+#myMobileNavBar {
+  background-color: #fff;
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 4px;
+  vertical-align: middle;
 }
 #myNavBar {
   border-bottom: thin solid #CDCDCD;
@@ -61,56 +60,64 @@ body {
   border-radius: 30px;
 }
 /* HOME */
-
 .opening {
-  text-align: center;	
+  text-align: center;
 }
 #latestProject {
   background-color: #FFF6EF;
+  padding: 0px;
 }
-.latestProject-group{
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	border-radius: 1.5rem;
+.latestProject-group {
+  /*padding-top: 1rem;
+	 padding-bottom: 1rem; */
+  border-radius: 1.5rem;
+  padding: 0px;
+  margin: 0px;
 }
-.latestProject-group p{
+.latestProject-col {
+  padding: 0px;
+  margin: 15px;
+}
+.latestProject-group p {
   font-size: 1.2rem;
 }
-.latestProject-group a{
-	color: #000;
-	
+.latestProject-group a {
+  color: #000;
 }
-.latestProject-group:hover{	
-	filter: brightness(90%);
-	background-color: #FFF6EF;
+.latestProject-group:hover {
+  filter: brightness(90%);
+  background-color: #FFF6EF;
 }
-
-
 #latestProject, #oldProject {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
 #latestProject img {
   border-radius: 0.9rem;
+  margin: 0px;
 }
 #oldProject {
   background: #fff;
 }
-#oldProject .opening{
-	margin-bottom: 2rem;
+#oldProject .opening {
+  margin-bottom: 2rem;
 }
 #oldProject .card {
   border-radius: 0.9rem;
   overflow: hidden;
 }
-
+#oldProject .card-deck {
+  margin-left: 0px;
+	margin-right: 0px;
+}
 #oldProject h5 {
   color: #000;
 }
 #oldProject .card {
   border-radius: 0.9rem;
   overflow: hidden;
+  margin-left: 0px;
+	margin-right: 0px;
 }
 #oldProject .card:hover {
   display: block;
@@ -131,9 +138,14 @@ body {
   font-size: 0.85rem;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-	padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 #myFooter-nav {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+#myFooter-nav a{
+	display: block;
+  margin: 1rem;
+  
 }
