@@ -5,6 +5,10 @@ body {
   font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace" !important;
 }
 
+#myScrollSpyBody{
+	position: relative;
+}
+
 #latestProject img {
   border-radius: 0.9rem;
 }

@@ -113,11 +113,10 @@ body {
 #oldProject h5 {
   color: #000;
 }
-#oldProject .card {
-  border-radius: 0.9rem;
-  overflow: hidden;
-  margin-left: 0px;
-	margin-right: 0px;
+#oldProject .card .card-text {
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	color: #797979;
 }
 #oldProject .card:hover {
   display: block;
@@ -134,6 +133,7 @@ body {
 #oldProject .card .card-body {
   background-color: #fff;
 }
+
 #myFooter {
   font-size: 0.85rem;
   font-family: 'Open Sans', sans-serif;
@@ -149,3 +149,92 @@ body {
   margin: 1rem;
   
 }
+
+/* content style */
+
+#myContent{
+	background-color: #fdfdf9;
+	color: #333333;
+	
+}
+
+#myContent #myContent-hero {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	margin-left: 0px;
+	max-width: 880px;
+	text-align: center;
+}
+
+#myContent #myContent-hero p{
+	font-size: 1.3rem;
+	color: #505050;
+}
+
+
+#mySideNav {
+    top: 30px;
+    position: sticky;
+    display: block;
+    font-size: 0.9rem;
+}
+#mySideNav ul {
+    font-size: 1rem;
+    border-left: 0.1rem solid #eee;
+}
+#mySideNav a {
+    color: #666;
+}
+#mySideNav .active, #mySideNav a:checked {
+    color: #E82427 !important;
+}
+#mySideNav li {
+    list-style: none;
+}
+.mySectionGroup {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	
+}
+
+.mySectionGroup-title{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.mySectionGroup-heading{
+	padding-bottom: 1rem;
+}
+
+.mySectionGroup h3{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #000;
+	text-decoration:overline;
+	text-decoration-color:#0052D7;
+	/*text-decoration-thickness: 0.1rem;*/
+
+}
+
+.mySectionGroup h4{
+	font-size: 1rem;
+	font-weight:bolder;
+	color: #000;
+	
+
+}
+
+.mySectionGroup-screenshot{
+	background-color:#eee;
+	padding-top: 1rem;
+}
+.mySectionGroup-screenshot img{
+	width: 100%;
+	height: auto;
+}
+.mySectionGroup-screenshot p{
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+
