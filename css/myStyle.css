@@ -108,15 +108,15 @@ body {
 }
 #oldProject .card-deck {
   margin-left: 0px;
-	margin-right: 0px;
+  margin-right: 0px;
 }
 #oldProject h5 {
   color: #000;
 }
 #oldProject .card .card-text {
-	font-size: 0.9rem;
-	line-height: 1.2rem;
-	color: #797979;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: #797979;
 }
 #oldProject .card:hover {
   display: block;
@@ -133,7 +133,6 @@ body {
 #oldProject .card .card-body {
   background-color: #fff;
 }
-
 #myFooter {
   font-size: 0.85rem;
   font-family: 'Open Sans', sans-serif;
@@ -144,97 +143,102 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-#myFooter-nav a{
-	display: block;
+#myFooter-nav a {
+  display: block;
   margin: 1rem;
-  
 }
-
 /* content style */
-
-#myContent{
-	background-color: #fdfdf9;
-	color: #333333;
+#myContent {
+  background-color: #fdfdf9;
+  color: #333333;
+}
+#myContent #myContent-hero {
+  padding-top: 50px;
+	padding-bottom: 50px;
+  margin-left: 0px;
+  max-width: 880px;
+  text-align: center;
 	
 }
-
-#myContent #myContent-hero {
-	padding-top: 50px;
-	padding-bottom: 30px;
-	margin-left: 0px;
-	max-width: 880px;
-	text-align: center;
+#myContent #myContent-hero p {
+  font-size: 1.3rem;
+  color: #505050;
 }
-
-#myContent #myContent-hero p{
-	font-size: 1.3rem;
-	color: #505050;
-}
-
-
 #mySideNav {
-    top: 30px;
-    position: sticky;
-    display: block;
-    font-size: 0.9rem;
+  top: 30px;
+  position: sticky;
+  display: block;
+  font-size: 0.9rem;
+}
+#mySideNav-heading{
+	font-weight: 600;
+	
 }
 #mySideNav ul {
-    font-size: 1rem;
-    border-left: 0.1rem solid #eee;
+  font-size: 1rem;
+  border-left: 0.1rem solid #eee;
 }
 #mySideNav a {
-    color: #666;
+  color: #666;
 }
 #mySideNav .active, #mySideNav a:checked {
-    color: #E82427 !important;
+  color: #E82427 !important;
 }
 #mySideNav li {
-    list-style: none;
+  list-style: none;
 }
 .mySectionGroup {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-
-.mySectionGroup-title{
-	margin-top: 30px;
-	text-align: center;
+.mySectionGroup-title-v1 {
+  text-align: center;
+	letter-spacing: 0.1rem;
+	font-size: 1.5rem;
 }
-
-.mySectionGroup-heading{
-	padding-bottom: 1rem;
+.mySectionGroup-title {
+  margin-top: 30px;
+  text-align: center;
+	letter-spacing: 0.1rem;
+	font-size: 1.5rem;
 }
-
-.mySectionGroup h3{
-	font-size: 1.2rem;
-	font-weight: 600;
-	color: #000;
-	text-decoration:overline;
-	text-decoration-color:#0052D7;
-	/*text-decoration-thickness: 0.1rem;*/
-
+.mySectionGroup-heading span {
+  padding-top: 3px;
+  display: inline-block;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  vertical-align: middle;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+  float: left;
+  margin-right: 1rem;
 }
-
-.mySectionGroup h4{
-	font-size: 1rem;
-	font-weight:bolder;
-	color: #000;
-	
-
+.mySectionGroup h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: overline;
+  text-decoration-color: #0052D7;
+  /*text-decoration-thickness: 0.1rem;*/
 }
-
-.mySectionGroup-screenshot{
-	background-color:#eee;
-	padding-top: 1rem;
+.mySectionGroup h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
 }
-.mySectionGroup-screenshot img{
-	width: 100%;
-	height: auto;
+.mySectionGroup-screenshot {
+  background-color: #eee;
+  padding-top: 1rem;
 }
-.mySectionGroup-screenshot p{
-	text-align: center;
-	font-size: 0.8rem;
+.mySectionGroup-screenshot img {
+  width: 100%;
+  height: auto;
 }
-
-
+.mySectionGroup-screenshot p {
+  text-align: center;
+  font-size: 0.8rem;
+}
