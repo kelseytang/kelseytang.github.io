@@ -154,11 +154,11 @@ body {
 }
 #myContent #myContent-hero {
   padding-top: 50px;
-	padding-bottom: 50px;
+padding-bottom: 50px;
   margin-left: 0px;
   max-width: 880px;
-  text-align: center;
-	
+	text-align: center;
+ 	
 }
 #myContent #myContent-hero p {
   font-size: 1.3rem;
@@ -231,12 +231,13 @@ body {
   color: #000;
 }
 .mySectionGroup-screenshot {
-  background-color: #eee;
-  padding-top: 1rem;
+  background-color:#f3f3ee;
+  padding:0px;
 }
 .mySectionGroup-screenshot img {
-  width: 100%;
+	max-width: 100%;
   height: auto;
+	margin-bottom: 16px;
 }
 .mySectionGroup-screenshot p {
   text-align: center;
