@@ -151,6 +151,11 @@ body {
   background-color: #fdfdf9;
   color: #333333;
 }
+#myContent .divider{
+	margin-top: 3rem;
+	text-align: center;
+	color: #959595;
+}
 #myContent #myContent-hero {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -209,6 +214,10 @@ body {
 	color: #000;
 }
 
+#myContent .headingTag{
+	font-size: 1rem;
+}
+
 #myContent .sub{
 	margin-top: 2rem;
 }
@@ -240,15 +249,18 @@ margin-top: 1rem;
   padding: 0px;
 
 }
-.mySectionGroup-screenshot img {
+/* Screenshot style */
+.mySectionGroup-screenshot img , .genScreenshot img{
   max-width: 100%;
   height: auto;
   margin-bottom: 16px;
 }
-.mySectionGroup-screenshot .screenshot p {
+/* Caption style */
+.mySectionGroup-screenshot .screenshot p, .genScreenshot p {
   text-align: center;
   font-size: 0.9rem;
 }
+/* END Caption style */
 .mySectionGroup-screenshot .info{
 	background: #FFF9E0;
 	padding: 2rem;
@@ -256,4 +268,9 @@ margin-top: 1rem;
 .mySectionGroup-screenshot .info p{
 	padding: 0px;
 	margin: 0px;
+}
+.genScreenshot{
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
