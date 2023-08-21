@@ -2,6 +2,7 @@
 /* CSS Document */
 body {
   font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
 }
 #myMobileNavBar {
   background-color: #fff;
@@ -149,13 +150,20 @@ body {
 /* content style */
 #myContent {
   background-color: #fdfdf9;
+
   color: #333333;
 }
+
+/* Not in used
 #myContent .divider{
 	margin-top: 3rem;
 	text-align: center;
 	color: #959595;
-}
+} */
+
+
+
+
 #myContent #myContent-hero {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -184,10 +192,7 @@ body {
   display: block;
   font-size: 0.9rem;
 }
-#mySideNav-heading {
-  font-weight: 600;
-  color: #000;
-}
+
 #mySideNav ul {
   font-size: 0.9rem;
   border-left: 0.1rem solid #eee;
@@ -208,10 +213,20 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+#myContent h2, h3, h4, #mySideNav-heading{
+	color: #000;
+	font-weight: bold;
+}
+
 #myContent h2 {
   font-size: 2rem;
-	font-weight: bold;
-	color: #000;
+}
+#myContent h3 {
+  font-size: 1.6rem;
+}
+#myContent h4 {
+  font-size: 1rem;
 }
 
 #myContent .headingTag{
@@ -233,16 +248,7 @@ body {
   font-size: 1.5rem;
 }
 
-.mySectionGroup h3 {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #000;
-}
-.mySectionGroup h4 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #000;
-}
+
 .mySectionGroup-screenshot {
   background-color: #F6F5F1;
 margin-top: 1rem;
@@ -263,7 +269,8 @@ margin-top: 1rem;
 /* END Caption style */
 .mySectionGroup-screenshot .info{
 	background: #FFF9E0;
-	padding: 2rem;
+	padding: 2rem 1rem 2rem 1rem;
+	
 }
 .mySectionGroup-screenshot .info p{
 	padding: 0px;
