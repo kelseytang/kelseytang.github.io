@@ -40,6 +40,12 @@ body {
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' height='48' viewBox='0 -960 960 960'%3e%3cpath d='M179.435-105.869q-32.74 0-56.262-23.356-23.522-23.355-23.522-55.862v-589.826q0-32.74 23.522-56.262 23.522-23.521 56.262-23.521h294.956v79.783H179.435v589.826h294.956v79.218H179.435Zm487.13-178.782-57.131-56.001 99.739-99.739H367.652v-79.218h339.521l-99.739-99.739 57.131-56.001L860.349-479 666.565-284.651Z'/%3e%3c/svg%3e");
 }
+#myNavBar .navbar-brand a{
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
 #myNavBar .navbar-brand, #myFooter-Brand {
   font-weight: 500;
   color: #000;
@@ -275,6 +281,17 @@ margin-top: 1rem;
 .mySectionGroup-screenshot .info p{
 	padding: 0px;
 	margin: 0px;
+}
+.mySectionGroup-screenshot .captionNum{
+	display: inline-block;
+	width: 24px;
+	border-radius: 12px;
+	font-size: 0.75rem;
+	margin-bottom: 2px;
+	color: #fff;
+	background-color: #363E48;
+	margin-right: 4px;
+	
 }
 .genScreenshot{
 	text-align: center;

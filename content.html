@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,7 @@
 <!-- InstanceEndEditable -->
 <!-- Bootstrap -->
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/myStyle.css" rel="stylesheet" type="text/css">
+	<link href="css/myStyle.css" rel="stylesheet" type="text/css">
 <!-- Google font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +23,15 @@
 <!-- body code goes here -->
 <nav class="navbar navbar-expand-lg" id="myNavBar">
   <div class="container" >
-    <div class="navbar-brand">KELSEY TANG</div>
-    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-brand"><a href="index.html">KELSEY TANG</a></div>
+    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="MyNavBarContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">PORTFOLIO<span class="sr-only">(current)</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#">RESUME</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">PORTFOLIO <span class="sr-only">(current)</span></a></li>
+		  <li class="nav-item"><a class="nav-link" href="#">RESUME</a></li>
         <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
       </ul>
+      
     </div>
   </div>
 </nav>
@@ -62,7 +62,7 @@
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
             <h3>Scenario #01</h3>
-            <p>A traveler is in an airport waiting for the last leg of a flight home when their flight gets abruptly canceled due to bad weather.</p>
+			  <p>A traveler is in an airport waiting for the last leg of a flight home when their flight gets abruptly canceled due to bad weather.</p>
           </div>
           <div class="col-md-6">
             <h4>Challenge</h4>
@@ -75,18 +75,21 @@
               Button: 25 characters</p>
           </div>
           <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-notification1.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
+            <div class="screenshot"><img src="images/uxw/UXW-notification1.png" alt="Cancelled flight"/>
+				<p><span class="captionNum">A</span> A push notification informs customers what's going on, and ask them to open the app for details.<br>
+				<span class="captionNum">B</span> The app shows an in-app notification, and it won't disappear, so customers can re-read them. </p>
             </div>
             <div class="info">
-              <h4>Design consideration</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</p>
+              <!-- <h4>Design consideration</h4> -->
+				<h4>Design consideration</h4>
+              <p><strong>The message headline:</strong> What happened / what to do</p>
+				<p><strong>The message:</strong> What to do/ where to go/ how to get details</p>
             </div>
           </div>
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario # 02</h3>
+            <h3>Scenario #02</h3>
             <p>It’s Monday. A user has just gotten into their car to drive to work. They plug their phone into the car and start driving.</p>
           </div>
           <div class="col-md-6">
@@ -99,7 +102,7 @@
               Body: 45 characters max</p>
           </div>
           <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-notification2.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-notification2.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor!</p>
             </div>
             <div class="info">
@@ -110,7 +113,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #3</h3>
+            <h3>Scenario #03</h3>
             <p>A sports fan is at a wedding while their favorite team is playing against their arch-rivals. Their team scores.</p>
           </div>
           <div class="col-md-6">
@@ -123,7 +126,7 @@
               Body: 45 characters max</p>
           </div>
           <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-notification3.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-notification3.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
             </div>
             <div class="info">
@@ -134,7 +137,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #4</h3>
+            <h3>Scenario #04</h3>
             <p>A short-haul truck driver has a phone app that monitors his route, schedule, fuel and deliveries. He has 6 more deliveries before stopping for fuel and lunch. Due to unexpected traffic, he’s behind schedule. He can choose to stay on his planned route for a few more stops, but risk running low on fuel and missing lunch, or he can get fuel and lunch now and finish the deliveries later.</p>
           </div>
           <div class="col-md-6">
@@ -148,7 +151,7 @@
               Button: 25 characters</p>
           </div>
           <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-notification4.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-notification4.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
             </div>
             <div class="info">
@@ -160,7 +163,7 @@
         <h2 class="sub" id="list-item-2">Actionable Notification</h2>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #1</h3>
+            <h3>Scenario #01</h3>
             <p>The user is trying to rent a car using an application but the credit card on file has expired.</p>
           </div>
           <div class="col-md-6">
@@ -173,7 +176,7 @@
               Body: 45 characters max</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-actionable1.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-actionable1.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit!</p>
             </div>
             <div class="info">
@@ -184,7 +187,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #2</h3>
+            <h3>Scenario #02</h3>
             <p>TThe user works in graphic design. While critiquing a design in a mobile app, their phone abruptly turns off. When they restart the phone, they reopen the app.</p>
           </div>
           <div class="col-md-6">
@@ -198,7 +201,7 @@
               Button(2): 20 characters max</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-actionable2.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-actionable2.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget!</p>
             </div>
             <div class="info">
@@ -210,7 +213,7 @@
         <h2 class="sub" id="list-item-3">Error Message</h2>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #1</h3>
+            <h3>Scenario #01</h3>
             <p>The user entered the wrong email address to sign in to their account.</p>
           </div>
           <div class="col-md-6">
@@ -222,7 +225,7 @@
             <p>40 characters max</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-error1.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-error1.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
             </div>
             <div class="info">
@@ -233,7 +236,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #2</h3>
+            <h3>Scenario #02</h3>
             <p>A user is creating an account. When they come to the step where they are asked to enter their name, they get an error message. A fraud detection software thinks their name is fake—but it’s wrong 5% of the time.</p>
           </div>
           <div class="col-md-6">
@@ -245,7 +248,7 @@
             <p>45 characters max</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-error2.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-error2.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
             </div>
             <div class="info">
@@ -256,7 +259,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #3</h3>
+            <h3>Scenario #03</h3>
             <p>A user is shopping using a price comparison app that boasts “real-time” pricing on items. As they are checking the price of an item, something goes wrong. The problem is unknown.</p>
           </div>
           <div class="col-md-6">
@@ -270,7 +273,7 @@
               Button(s): 15 characters max</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-error3.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-error3.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
             </div>
             <div class="info">
@@ -281,7 +284,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #4</h3>
+            <h3>Scenario #04</h3>
             <p>The user is trying to view a website to help them buy a car. But, the content can’t load without the user’s location. They need to enter their ZIP code and first name.</p>
           </div>
           <div class="col-md-6">
@@ -295,7 +298,7 @@
               Button(s): 15 characters max</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-error4.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-error4.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula.</p>
             </div>
             <div class="info">
@@ -307,7 +310,7 @@
         <h2 class="sub" id="list-item-4">Promotional Page</h2>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #1</h3>
+            <h3>Scenario #01</h3>
             <p>A user is a working parent, and a big sports fan, in the midst of their favorite sports season who can no longer attend games.</p>
           </div>
           <div class="col-md-6">
@@ -321,7 +324,7 @@
               Button: 25 characters max</p>
           </div>
           <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-promotion1.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-promotion1.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo liean maa!</p>
             </div>
             <div class="info">
@@ -332,7 +335,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #2</h3>
+            <h3>Scenario #02</h3>
             <p>The user is a casual music fan and (on occasion) goes to live concerts. They have a music player app on their phone.</p>
           </div>
           <div class="col-md-6">
@@ -346,7 +349,7 @@
               Button: 25 characters</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-promotion2.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-promotion2.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
             </div>
             <div class="info">
@@ -357,7 +360,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #3</h3>
+            <h3>Scenario #03</h3>
             <p>A user is in their favorite supermarket. They open the supermarket’s app on their phone to see what’s on sale and are greeted by a promotion.</p>
           </div>
           <div class="col-md-6">
@@ -371,7 +374,7 @@
               Button: 25 characters</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-promotion3.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-promotion3.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenea!</p>
             </div>
             <div class="info">
@@ -382,7 +385,7 @@
         </div>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #4</h3>
+            <h3>Scenario #04</h3>
             <p>An elderly user is doing a Google search to find an easy way to buy contact lenses online.</p>
           </div>
           <div class="col-md-6">
@@ -395,7 +398,7 @@
               Meta Description: 16 characters max</p>
           </div>
           <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/UXW-promotion4.png"/>
+            <div class="screenshot"><img src="images/uxw/UXW-promotion4.png"/>
               <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
             </div>
             <div class="info">
@@ -416,16 +419,24 @@
 <!-- END myContent --->
 <!-- InstanceEndEditable -->
 <footer id="myFooter" class="container pt-3">
-  <div id="myFooter-Brand" class="d-md-inline-flex justify-content-sm-center ">KELSEY TANG</div>
-  <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav" style="background-color: aquar"><a href="#">Works</a><a href="#">About</a><a href="#">Linkedin<span style="font-size: 0.8rem">↗︎</span></a><a href="#">Resume<span style="font-size: 0.8rem">↗</span></a></div>
-  <div class="d-md-inline-flex justify-content-sm-center">Kelseytang.github.io uses cookies</div>
-</footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-3.4.1.min.js"></script>
+	
+	<div id="myFooter-Brand" class="d-md-inline-flex justify-content-sm-center ">KELSEY TANG</div>
+	 <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav" style="background-color: aquar"> 
+		  <a href="#">Works</a>
+		 <a href="#">About</a>
+		 <a href="#">Linkedin<span style="font-size: 0.8rem">↗︎</span></a>
+		 <a href="#">Resume<span style="font-size: 0.8rem">↗</span></a>
+	</div>
+	<div class="d-md-inline-flex justify-content-sm-center">Kelseytang.github.io uses cookies</div>
+	
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/popper.min.js"></script>
+	 
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
 <script src="js/bootstrap-4.4.1.js"></script>
 </body>
-<!-- InstanceEnd -->
-</html>
+<!-- InstanceEnd --></html>
