@@ -282,6 +282,10 @@ margin-top: 1rem;
 	padding: 0px;
 	margin: 0px;
 }
+.mySectionGroup-screenshot .info img{
+	padding: 0px;
+	margin: 0px;
+}
 .mySectionGroup-screenshot .captionNum{
 	display: inline-block;
 	width: 24px;
