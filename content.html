@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,29 +9,31 @@
 <!-- InstanceEndEditable -->
 <!-- Bootstrap -->
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/myStyle.css" rel="stylesheet" type="text/css">
+	<link href="css/myStyle.css" rel="stylesheet" type="text/css">
 <!-- Google font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Serif:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap" rel="stylesheet">
-
+	
 <!-- my style sheet -->
 <link href="css/myStyle.css" rel="stylesheet" type="text/css">
 </head>
 <!-- InstanceBeginEditable name="BodyAttribute" -->
 <body id="myScrollSpyBody" data-spy="scroll" data-target="#mySideNav" data-offset="10">
+
 <!-- InstanceEndEditable -->
 <!-- body code goes here -->
 <nav class="navbar navbar-expand-lg" id="myNavBar">
   <div class="container" >
     <div class="navbar-brand"><a href="index.html">KELSEY TANG</a></div>
-    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"><span class="navbar-toggler-icon"></span></button>
+    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="MyNavBarContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">PORTFOLIO<span class="sr-only">(current)</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="#">RESUME</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">WORKS <span class="sr-only">(current)</span></a></li>
+		  <li class="nav-item"><a class="nav-link" href="resume.html">RESUME</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
       </ul>
+      
     </div>
   </div>
 </nav>
@@ -50,9 +51,8 @@
         <p id="mySideNav-heading">On this page:</p>
         <ul class="nav">
           <li class="nav-item"><a href="#list-item-1" class="nav-link">Push Notification</a></li>
-          <li class="nav-item"><a href="#list-item-2" class="nav-link">Actionable Notification</a></li>
-          <li class="nav-item"><a href="#list-item-3" class="nav-link">Error Message</a></li>
-          <li class="nav-item"><a href="#list-item-4" class="nav-link">Promotional Page</a></li>
+          <li class="nav-item"><a href="#list-item-2" class="nav-link">Error Message</a></li>
+          <li class="nav-item"><a href="#list-item-3" class="nav-link">Promotional Page</a></li>
         </ul>
       </nav>
     </div>
@@ -78,7 +78,7 @@
       <div class="mySectionGroup-screenshot">
         <div class="screenshot"><img src="images/uxw/Notification-D1.png" alt="Cancelled flight"/>
           <p><span class="captionNum">A</span>A push notification informs customers what's going on, and ask them to open the app for details.<br>
-            <span class="captionNum">B</span>The app shows an in-app notification, and it won't disappear, so customers can re-read them.</p>
+            <span class="captionNum">B</span>The app displays an inline notification at the top of the page for customers to re-read it.</p>
         </div>
         <div class="info row" style="margin: 0px">
           <!-- <h4>Design consideration</h4> -->
@@ -89,7 +89,7 @@
               <li>Focus on "what's happening" and "what to do next"</li>
               <li>Avoid over-promising, the weather is difficult to predict</li>
               <li>Ensuring the successful delivery of the message is important</li>
-              <li>Using in-app notification as an alternative, because people can turn off the system notification for the app</li>
+              <li>As people can turn off the system notification for the app, using the inline notification component as an alternative</li>
             </ol>
           </div>
           <div class="col-md-6">
@@ -141,16 +141,18 @@
           <h4>Length restriction</h4>
           <p>Headline: 30 characters max<br>
             Body: 45 characters max</p>
-        </div>
+		  </div></div>
         <div class="mySectionGroup-screenshot">
           <div class="screenshot"><img src="images/uxw/Notification-D7.png"/>
-            <p align="center">↑ caption goes here</p>
+            <p><span class="captionNum">A</span>The headline only includes the latest match scores; to help users track the match's progress, include a timeline of the match in the body section <span class="captionNum">B</span>.</p>
           </div>
           <div class="info row" style="margin: 0px">
             <div class="col-md-6">
               <h4>Approach</h4>
               <ol>
-                <li>tod</li>
+                <li>Users can opt-in for various sports notifications at a glance, adding emoji icons in the headline for easy identification of different sports</li>
+                <li>Use common sports terminology</li>
+                <li>Include the timeline of the match for useers to track the progress</li>
               </ol>
             </div>
             <div class="col-md-6">
@@ -194,7 +196,7 @@
           </div>
         </div>
       </div>
-      <h2 class="sub" id="list-item-2">Actionable Notification</h2>
+      <h2 class="sub" id="list-item-2">Error Messag</h2>
       <div class="row mySectionGroup" >
         <div class="col-md-12 mySectionGroup-heading">
           <h3>Scenario #01</h3>
@@ -258,10 +260,9 @@
           </div>
         </div>
       </div>
-      <h2 class="sub" id="list-item-3">Error Message</h2>
       <div class="row mySectionGroup" >
         <div class="col-md-12 mySectionGroup-heading">
-          <h3>Scenario #01</h3>
+          <h3>Scenario #03</h3>
           <p>The user entered the wrong email address to sign in to their account.</p>
         </div>
         <div class="col-md-6">
@@ -274,13 +275,14 @@
         </div>
         <div class="col-12 mySectionGroup-screenshot">
           <div class="screenshot"><img src="images/uxw/Error-D3.png"/>
-            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
+           <p align="center"><span class="captionNum">A</span>There is a chance that the user hasn't yet created an account, so include a "sign-up" button.</p>
           </div>
           <div class="info row" style="margin: 0px">
             <div class="col-md-6">
               <h4>Approach</h4>
               <ol>
-                <li>asd</li>
+                <li>It's difficult to determine if a user has entered the wrong email, so the message only states that there is no match for the provided email. </li>
+				  <li>In case the user doesn't have an account, include a "sign-up" button in the message</li>
               </ol>
             </div>
             <div class="col-md-6">
@@ -291,7 +293,7 @@
       </div>
       <div class="row mySectionGroup" >
         <div class="col-md-12 mySectionGroup-heading">
-          <h3>Scenario #02</h3>
+          <h3>Scenario #04</h3>
           <p>A user is creating an account. When they come to the step where they are asked to enter their name, they get an error message. A fraud detection software thinks their name is fake—but it’s wrong 5% of the time.</p>
         </div>
         <div class="col-md-6">
@@ -304,16 +306,15 @@
         </div>
         <div class="col-12 mySectionGroup-screenshot">
           <div class="screenshot"><img src="images/uxw/Error-D12.png"/>
-              <p align="left"><span class="captionNum">A</span>The UI label tells the user to input the name on the ID card. When the error occurs, 
-            <span class="captionNum">B</span>the app reminds the uers to use the name on the ID card, and explain what could cause errors</p>
+            <p align="left"><span class="captionNum">A</span>The UI label tells the user to input the name on the ID card. When the error occurs,<span class="captionNum">B</span>the app reminds the uers to use the name on the ID card, and explain what could cause errors</p>
           </div>
           <div class="info row" style="margin: 0px">
             <div class="col-md-6">
               <h4>Approach</h4>
-              <ol><li>Avoid blaming users, explain what could cause this error</li>
-				  <li>If the name doesn't contains digits or symbol, the app should not block users as the system is not 100% correct</li>
-				  <li>A simple way to clarify the term "real name" is to instruct the user to use the name appeared on their ID card</li>
-                
+              <ol>
+                <li>Avoid blaming users, explain what could cause this error</li>
+                <li>If the name doesn't contains digits or symbol, the app should not block users as the system is not 100% correct</li>
+                <li>A simple way to clarify the term "real name" is to instruct the user to use the name appeared on their ID card</li>
               </ol>
             </div>
             <div class="col-md-6">
@@ -324,7 +325,7 @@
       </div>
       <div class="row mySectionGroup" >
         <div class="col-md-12 mySectionGroup-heading">
-          <h3>Scenario #03</h3>
+          <h3>Scenario #05</h3>
           <p>A user is shopping using a price comparison app that boasts “real-time” pricing on items. As they are checking the price of an item, something goes wrong. The problem is unknown.</p>
         </div>
         <div class="col-md-6">
@@ -356,7 +357,7 @@
       </div>
       <div class="row mySectionGroup" >
         <div class="col-md-12 mySectionGroup-heading">
-          <h3>Scenario #04</h3>
+          <h3>Scenario #06</h3>
           <p>The user is trying to view a website to help them buy a car. But, the content can’t load without the user’s location. They need to enter their ZIP code and first name.</p>
         </div>
         <div class="col-md-6">
@@ -526,16 +527,24 @@
 <!-- END myContent --->
 <!-- InstanceEndEditable -->
 <footer id="myFooter" class="container pt-3">
-  <div id="myFooter-Brand" class="d-md-inline-flex justify-content-sm-center ">KELSEY TANG</div>
-  <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav" style="background-color: aquar"><a href="#">Works</a><a href="#">About</a><a href="#">Linkedin<span style="font-size: 0.8rem">↗︎</span></a><a href="#">Resume<span style="font-size: 0.8rem">↗</span></a></div>
-  <div class="d-md-inline-flex justify-content-sm-center">Kelseytang.github.io uses cookies</div>
-</footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-3.4.1.min.js"></script>
+	
+	<div id="myFooter-Brand" class="d-md-inline-flex justify-content-sm-center ">KELSEY TANG</div>
+	 <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav" style="background-color: aquar"> 
+		  <a href="index.html">WORKS</a>
+		 <a href="resume.html">RESUME</a>
+		 <a href="about.html">ABOUT</a>
+		 <!-- <a href="#">LinkedIn<span style="font-size: 0.8rem">↗</span></a>-->
+	</div>
+	<!--<div class="d-md-inline-flex justify-content-sm-center" style="color:#8B8B8B">© 2023 Kelsey Tang</div>-->
+	
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/popper.min.js"></script>
+	 
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
 <script src="js/bootstrap-4.4.1.js"></script>
 </body>
-<!-- InstanceEnd -->
-</html>
+<!-- InstanceEnd --></html>
