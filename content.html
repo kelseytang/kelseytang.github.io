@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,12 @@
 <!-- InstanceEndEditable -->
 <!-- Bootstrap -->
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	<link href="css/myStyle.css" rel="stylesheet" type="text/css">
+<link href="css/myStyle.css" rel="stylesheet" type="text/css">
 <!-- Google font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Serif:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap" rel="stylesheet">
-	
+
 <!-- my style sheet -->
 <link href="css/myStyle.css" rel="stylesheet" type="text/css">
 </head>
@@ -25,460 +26,495 @@
 <nav class="navbar navbar-expand-lg" id="myNavBar">
   <div class="container" >
     <div class="navbar-brand"><a href="index.html">KELSEY TANG</a></div>
-    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"> <span class="navbar-toggler-icon"></span> </button>
+    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="MyNavBarContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">PORTFOLIO <span class="sr-only">(current)</span></a></li>
-		  <li class="nav-item"><a class="nav-link" href="#">RESUME</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">PORTFOLIO<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">RESUME</a></li>
         <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
       </ul>
-      
     </div>
   </div>
 </nav>
 <!-- InstanceBeginEditable name="Editable" -->
 <div class="container-fluid" id="myContent">
-  <div class="container pt-3" >
-    <div id="myContent-hero">
-      <h1>Content Design Challenges</h1>
-      <p>Here, I explored the posibility of communications.</p>
+<div class="container pt-3" >
+  <div id="myContent-hero">
+    <h1>UX Writing Challenges</h1>
+    <p>Here, I explored the posibility of communications.</p>
+  </div>
+  <div class="row" >
+    <!-- side menu -->
+    <div class="d-none d-md-block col-md-2 order-1 order-md-2">
+      <nav class="nav" id="mySideNav">
+        <p id="mySideNav-heading">On this page:</p>
+        <ul class="nav">
+          <li class="nav-item"><a href="#list-item-1" class="nav-link">Push Notification</a></li>
+          <li class="nav-item"><a href="#list-item-2" class="nav-link">Actionable Notification</a></li>
+          <li class="nav-item"><a href="#list-item-3" class="nav-link">Error Message</a></li>
+          <li class="nav-item"><a href="#list-item-4" class="nav-link">Promotional Page</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="row" >
-      <!-- side menu -->
-      <div class="d-none d-md-block col-md-2 order-1 order-md-2 pl-3">
-        <nav class="nav" id="mySideNav">
-          <p id="mySideNav-heading">On this page:</p>
-          <ul class="nav">
-            <li class="nav-item"><a href="#list-item-1" class="nav-link">Push Notification</a></li>
-            <li class="nav-item"><a href="#list-item-2" class="nav-link">Actionable Notification</a></li>
-            <li class="nav-item"><a href="#list-item-3" class="nav-link">Error Message</a></li>
-            <li class="nav-item"><a href="#list-item-4" class="nav-link">Promotional Page</a></li>
-          </ul>
-        </nav>
+    
+    <!-- End of side menu -->
+    <main class="col-md-10 order-md-1 order-2" >
+    <h2 id="list-item-1">Push Noticication</h2>
+    <div class="row mySectionGroup" >
+      <div class="col-md-12 mySectionGroup-heading">
+        <h3>Scenario #01</h3>
+        <p>A traveler is in an airport waiting for the last leg of a flight home when their flight gets abruptly canceled due to bad weather.</p>
       </div>
-      
-      <!-- End of side menu -->
-      <main class="col-md-10 order-md-1 order-2" >
-        <h2 id="list-item-1">Push Noticication</h2>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #01</h3>
-			  <p>A traveler is in an airport waiting for the last leg of a flight home when their flight gets abruptly canceled due to bad weather.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write a message from the airline app notifying them of the cancellation and what they need to do next.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 45 characters max<br>
-              Button: 25 characters</p>
-          </div>
-          <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Notification-D1.png" alt="Cancelled flight"/>
-				<p><span class="captionNum">A</span> A push notification informs customers what's going on, and ask them to open the app for details.<br>
-				<span class="captionNum">B</span> The app shows an in-app notification, and it won't disappear, so customers can re-read them. </p>
-            </div>
-            <div class="info row" style="margin: 0px">
-              <!-- <h4>Design consideration</h4> -->
-				<div class="col-md-6"><h4>Tone choice</h4>
-             <img src="images/uxw/Notification-D1-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p><strong>The message:</strong> What to do/ where to go/ how to get details</p></div>
-          </div>
+      <div class="col-md-6">
+        <h4>Challenge</h4>
+        <p>Write a message from the airline app notifying them of the cancellation and what they need to do next.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Length restriction</h4>
+        <p>Headline: 30 characters max<br>
+          Body: 45 characters max<br>
+          Button: 25 characters</p>
+      </div>
+      <div class="mySectionGroup-screenshot">
+        <div class="screenshot"><img src="images/uxw/Notification-D1.png" alt="Cancelled flight"/>
+          <p><span class="captionNum">A</span>A push notification informs customers what's going on, and ask them to open the app for details.<br>
+            <span class="captionNum">B</span>The app shows an in-app notification, and it won't disappear, so customers can re-read them.</p>
         </div>
-		  </div>
-			<div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #02</h3>
-            <p>It’s Monday. A user has just gotten into their car to drive to work. They plug their phone into the car and start driving.</p>
+        <div class="info row" style="margin: 0px">
+          <!-- <h4>Design consideration</h4> -->
+          
+          <div class="col-md-6">
+            <h4>Approach</h4>
+            <ol>
+              <li>Focus on "what's happening" and "what to do next"</li>
+              <li>Avoid over-promising, the weather is difficult to predict</li>
+              <li>Ensuring the successful delivery of the message is important</li>
+              <li>Using in-app notification as an alternative, because people can turn off the system notification for the app</li>
+            </ol>
           </div>
           <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>How would you let the user know there’s a fire happening in a nearby town that is causing road closures? The effect on their commute is unknown, but there is a definite danger if the fire gets closer. How do you communicate this to them? When? Write it.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 45 characters max</p>
-          </div>
-          <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Notification-D6.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor!</p>
-            </div>
-            <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Notification-D6-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
-          </div>
+            <h4>Tone choice</h4>
+            <img src="images/uxw/Notification-D1-tone.png"></div>
         </div>
-			
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #03</h3>
-            <p>A sports fan is at a wedding while their favorite team is playing against their arch-rivals. Their team scores.</p>
+      </div>
+    </div>
+    <div class="row mySectionGroup" >
+      <div class="col-md-12 mySectionGroup-heading">
+        <h3>Scenario #02</h3>
+        <p>It’s Monday. A user has just gotten into their car to drive to work. They plug their phone into the car and start driving.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Challenge</h4>
+        <p>How would you let the user know there’s a fire happening in a nearby town that is causing road closures? The effect on their commute is unknown, but there is a definite danger if the fire gets closer. How do you communicate this to them? When? Write it.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Length restriction</h4>
+        <p>Headline: 30 characters max<br>
+          Body: 45 characters max</p>
+      </div>
+      <div class="mySectionGroup-screenshot">
+        <div class="screenshot"><img src="images/uxw/Notification-D6.png"/></div>
+        <div class="info row" style="margin: 0px">
+          <div class="col-md-6">
+            <h4>Approach</h4>
+            <ol>
+              <li>Headline: Display the name of the street/highway where the event is located.</li>
+              <li>Body: Offer details about the location and possible impact, but not give a concret action as the situation can change anytime</li>
+              <li>For the sake of safe driving, no further interactions, e.g. open the app</li>
+            </ol>
           </div>
           <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>How would you, quickly, let the sports fan know about the latest play, the current score, and the key players? Write it.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 45 characters max</p>
-          </div>
-          <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Notification-D7.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
-            </div>
-            <div class="info row" style="margin: 0px">
-              <!-- <h4>Design consideration</h4> -->
-				<div class="col-md-6"><h4>Tone choice</h4>
-             <img src="images/uxw/Notification-D7-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p><strong>The message:</strong> What to do/ where to go/ how to get details</p></div>
-          </div>
-          </div>
+            <h4>Tone choice</h4>
+            <img src="images/uxw/Notification-D6-tone.png"></div>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #04</h3>
-            <p>A short-haul truck driver has a phone app that monitors his route, schedule, fuel and deliveries. He has 6 more deliveries before stopping for fuel and lunch. Due to unexpected traffic, he’s behind schedule. He can choose to stay on his planned route for a few more stops, but risk running low on fuel and missing lunch, or he can get fuel and lunch now and finish the deliveries later.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write a push notification alerting him of this dilemma and options.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 45 characters max<br>
-              Button: 25 characters</p>
-          </div>
-          <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Notification-D13.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
-            </div>
-            <div class="info row" style="margin: 0px">
-              <!-- <h4>Design consideration</h4> -->
-				<div class="col-md-6"><h4>Tone choice</h4>
-             <img src="images/uxw/Notification-D13-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p><strong>The message:</strong> What to do/ where to go/ how to get details</p></div>
-				
-          </div>
-          </div>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #03</h3>
+          <p>A sports fan is at a wedding while their favorite team is playing against their arch-rivals. Their team scores.</p>
         </div>
-        <h2 class="sub" id="list-item-2">Actionable Notification</h2>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #01</h3>
-            <p>The user is trying to rent a car using an application but the credit card on file has expired.</p>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>How would you, quickly, let the sports fan know about the latest play, the current score, and the key players? Write it.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 30 characters max<br>
+            Body: 45 characters max</p>
+        </div>
+        <div class="mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Notification-D7.png"/>
+            <p align="center">↑ caption goes here</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write them an error message so that they can correct the problem.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 45 characters max</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Action-D9.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit!</p>
-            </div>
           <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Action-D9-tone.png">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>tod</li>
+              </ol>
             </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Notification-D7-tone.png"></div>
           </div>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #02</h3>
-            <p>TThe user works in graphic design. While critiquing a design in a mobile app, their phone abruptly turns off. When they restart the phone, they reopen the app.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write a message that the user will read immediately upon opening the app. What do they need to know? What steps (if any) do they need to take to recover their content? What if they can't recover the content?</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 40 characters max<br>
-              Body: 120 characters max<br>
-              Button(2): 20 characters max</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Action-D5.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget!</p>
-            </div>
-           <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Action-D5-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
-          </div>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #04</h3>
+          <p>A short-haul truck driver has a phone app that monitors his route, schedule, fuel and deliveries. He has 6 more deliveries before stopping for fuel and lunch. Due to unexpected traffic, he’s behind schedule. He can choose to stay on his planned route for a few more stops, but risk running low on fuel and missing lunch, or he can get fuel and lunch now and finish the deliveries later.</p>
         </div>
-        <h2 class="sub" id="list-item-3">Error Message</h2>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #01</h3>
-            <p>The user entered the wrong email address to sign in to their account.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Tell the user to enter the right email.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>40 characters max</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Error-D3.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
-            </div>
-            <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Error-D3-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
-          </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Write a push notification alerting him of this dilemma and options.</p>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #02</h3>
-            <p>A user is creating an account. When they come to the step where they are asked to enter their name, they get an error message. A fraud detection software thinks their name is fake—but it’s wrong 5% of the time.</p>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 30 characters max<br>
+            Body: 45 characters max<br>
+            Button: 25 characters</p>
+        </div>
+        <div class="mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Notification-D13.png"/>
+            <p align="center">↑ Display the the "Distant to Empty" in the headline to make the information glanceable</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write an error message that prompts them to fix the error without shaming them for having a fake-sounding name.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>45 characters max</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Error-D12.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
-            </div>
           <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Error-D12-tone.png">
+            <!-- <h4>Design consideration</h4> -->
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>The goal is to ensure the user's safety</li>
+                <li>Utilize the emoji icon "⛽️" to make the notification easy to distinguish</li>
+                <li>"Distant to Empty" and "what to AVOID" are the key items to communicate</li>
+              </ol>
             </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Notification-D13-tone.png"></div>
           </div>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #03</h3>
-            <p>A user is shopping using a price comparison app that boasts “real-time” pricing on items. As they are checking the price of an item, something goes wrong. The problem is unknown.</p>
+      </div>
+      <h2 class="sub" id="list-item-2">Actionable Notification</h2>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #01</h3>
+          <p>The user is trying to rent a car using an application but the credit card on file has expired.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Write them an error message so that they can correct the problem.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 30 characters max<br>
+            Body: 45 characters max</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Action-D9.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit!</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write a message that informs the user that they cannot access the app right now.  You cannot specify "why" the app doesn't work, you also want them to continue using the app.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 120 characters max<br>
-              Button(s): 15 characters max</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Error-D14.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>tod</li>
+              </ol>
             </div>
-         <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Error-D14-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Action-D9-tone.png"></div>
           </div>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #04</h3>
-            <p>The user is trying to view a website to help them buy a car. But, the content can’t load without the user’s location. They need to enter their ZIP code and first name.</p>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #02</h3>
+          <p>TThe user works in graphic design. While critiquing a design in a mobile app, their phone abruptly turns off. When they restart the phone, they reopen the app.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Write a message that the user will read immediately upon opening the app. What do they need to know? What steps (if any) do they need to take to recover their content? What if they can't recover the content?</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 40 characters max<br>
+            Body: 120 characters max<br>
+            Button(2): 20 characters max</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Action-D5.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget!</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Ask them where they live and who they are without sounding like you're unnecessarily mining their data.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 25 characters max<br>
-              Body: 45 characters max<br>
-              Button(s): 15 characters max</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Error-D10.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula.</p>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>asd</li>
+              </ol>
             </div>
-         <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Error-D10-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Action-D5-tone.png"></div>
           </div>
         </div>
-        <h2 class="sub" id="list-item-4">Promotional Page</h2>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #01</h3>
-            <p>A user is a working parent, and a big sports fan, in the midst of their favorite sports season who can no longer attend games.</p>
+      </div>
+      <h2 class="sub" id="list-item-3">Error Message</h2>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #01</h3>
+          <p>The user entered the wrong email address to sign in to their account.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Tell the user to enter the right email.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>40 characters max</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Error-D3.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write a promotional screen for an app that lets a user choose teams, sends game reminders, real-time score updates and highlight videos.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 40 characters max<br>
-              Body: 175 characters max<br>
-              Button: 25 characters max</p>
-          </div>
-          <div class="mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Promo-D2.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo liean maa!</p>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>asd</li>
+              </ol>
             </div>
-           <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Promo-D2-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Error-D3-tone.png"></div>
           </div>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #02</h3>
-            <p>The user is a casual music fan and (on occasion) goes to live concerts. They have a music player app on their phone.</p>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #02</h3>
+          <p>A user is creating an account. When they come to the step where they are asked to enter their name, they get an error message. A fraud detection software thinks their name is fake—but it’s wrong 5% of the time.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Write an error message that prompts them to fix the error without shaming them for having a fake-sounding name.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>45 characters max</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Error-D12.png"/>
+              <p align="left"><span class="captionNum">A</span>The UI label tells the user to input the name on the ID card. When the error occurs, 
+            <span class="captionNum">B</span>the app reminds the uers to use the name on the ID card, and explain what could cause errors</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Tell the user that one of their favorite bands is playing live in their town. How would you compel them to want to go?</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 45 characters max<br>
-              Button: 25 characters</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Promo-D8.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol><li>Avoid blaming users, explain what could cause this error</li>
+				  <li>If the name doesn't contains digits or symbol, the app should not block users as the system is not 100% correct</li>
+				  <li>A simple way to clarify the term "real name" is to instruct the user to use the name appeared on their ID card</li>
+                
+              </ol>
             </div>
-           <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Promo-D8-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Error-D12-tone.png"></div>
           </div>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #03</h3>
-            <p>A user is in their favorite supermarket. They open the supermarket’s app on their phone to see what’s on sale and are greeted by a promotion.</p>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #03</h3>
+          <p>A user is shopping using a price comparison app that boasts “real-time” pricing on items. As they are checking the price of an item, something goes wrong. The problem is unknown.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Write a message that informs the user that they cannot access the app right now.  You cannot specify "why" the app doesn't work, you also want them to continue using the app.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 30 characters max<br>
+            Body: 120 characters max<br>
+            Button(s): 15 characters max</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Error-D14.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Tell the user that one of their favorite bands is playing live in their town. How would you compel them to want to go?</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Headline: 30 characters max<br>
-              Body: 45 characters max<br>
-              Button: 25 characters</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Promo-D4.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenea!</p>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>asdasd</li>
+              </ol>
             </div>
-           <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Promo-D4-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Error-D14-tone.png"></div>
           </div>
         </div>
-        <div class="row mySectionGroup" >
-          <div class="col-md-12 mySectionGroup-heading">
-            <h3>Scenario #04</h3>
-            <p>An elderly user is doing a Google search to find an easy way to buy contact lenses online.</p>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #04</h3>
+          <p>The user is trying to view a website to help them buy a car. But, the content can’t load without the user’s location. They need to enter their ZIP code and first name.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Ask them where they live and who they are without sounding like you're unnecessarily mining their data.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 25 characters max<br>
+            Body: 45 characters max<br>
+            Button(s): 15 characters max</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Error-D10.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula.</p>
           </div>
-          <div class="col-md-6">
-            <h4>Challenge</h4>
-            <p>Write a title and meta description for a website that sells subscription contact lenses delivered to a user every 30 days—convince them to try it.</p>
-          </div>
-          <div class="col-md-6">
-            <h4>Length restriction</h4>
-            <p>Title: 60 characters max<br>
-              Meta Description: 16 characters max</p>
-          </div>
-          <div class="col-12 mySectionGroup-screenshot">
-            <div class="screenshot"><img src="images/uxw/Promo-D11.png"/>
-              <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>tod</li>
+              </ol>
             </div>
-            <div class="info row" style="margin: 0px">
-				<div class="col-md-6">
-					<h4>Tone choice</h4>
-             <img src="images/uxw/Promo-D11-tone.png">
-            </div>
-				<div class="col-md-6"><h4>Design consideration</h4>
-              <p><strong>The message headline:</strong> What happened / what to do</p>
-				<p>The message: What to do/ where to go/ how to get details</p></div>
-          </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Error-D10-tone.png"></div>
           </div>
         </div>
-        <p></p>
+      </div>
+      <h2 class="sub" id="list-item-4">Promotional Page</h2>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #01</h3>
+          <p>A user is a working parent, and a big sports fan, in the midst of their favorite sports season who can no longer attend games.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Write a promotional screen for an app that lets a user choose teams, sends game reminders, real-time score updates and highlight videos.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 40 characters max<br>
+            Body: 175 characters max<br>
+            Button: 25 characters max</p>
+        </div>
+        <div class="mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Promo-D2.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo liean maa!</p>
+          </div>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>asdasd</li>
+              </ol>
+            </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Promo-D2-tone.png"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #02</h3>
+          <p>The user is a casual music fan and (on occasion) goes to live concerts. They have a music player app on their phone.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Tell the user that one of their favorite bands is playing live in their town. How would you compel them to want to go?</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 30 characters max<br>
+            Body: 45 characters max<br>
+            Button: 25 characters</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Promo-D8.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
+          </div>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>asdasd</li>
+              </ol>
+            </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Promo-D8-tone.png"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #03</h3>
+          <p>A user is in their favorite supermarket. They open the supermarket’s app on their phone to see what’s on sale and are greeted by a promotion.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Tell the user that one of their favorite bands is playing live in their town. How would you compel them to want to go?</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Headline: 30 characters max<br>
+            Body: 45 characters max<br>
+            Button: 25 characters</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Promo-D4.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenea!</p>
+          </div>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>asdasd</li>
+              </ol>
+            </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Promo-D4-tone.png"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mySectionGroup" >
+        <div class="col-md-12 mySectionGroup-heading">
+          <h3>Scenario #04</h3>
+          <p>An elderly user is doing a Google search to find an easy way to buy contact lenses online.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Challenge</h4>
+          <p>Write a title and meta description for a website that sells subscription contact lenses delivered to a user every 30 days—convince them to try it.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Length restriction</h4>
+          <p>Title: 60 characters max<br>
+            Meta Description: 16 characters max</p>
+        </div>
+        <div class="col-12 mySectionGroup-screenshot">
+          <div class="screenshot"><img src="images/uxw/Promo-D11.png"/>
+            <p>↑ caption goes here: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.!</p>
+          </div>
+          <div class="info row" style="margin: 0px">
+            <div class="col-md-6">
+              <h4>Approach</h4>
+              <ol>
+                <li>asdasd</li>
+              </ol>
+            </div>
+            <div class="col-md-6">
+              <h4>Tone choice</h4>
+              <img src="images/uxw/Promo-D11-tone.png"></div>
+          </div>
+        </div>
+      </div>
+      <p></p>
       </main>
     </div>
     <!-- END row --->
@@ -490,24 +526,16 @@
 <!-- END myContent --->
 <!-- InstanceEndEditable -->
 <footer id="myFooter" class="container pt-3">
-	
-	<div id="myFooter-Brand" class="d-md-inline-flex justify-content-sm-center ">KELSEY TANG</div>
-	 <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav" style="background-color: aquar"> 
-		  <a href="#">Works</a>
-		 <a href="#">About</a>
-		 <a href="#">Linkedin<span style="font-size: 0.8rem">↗︎</span></a>
-		 <a href="#">Resume<span style="font-size: 0.8rem">↗</span></a>
-	</div>
-	<div class="d-md-inline-flex justify-content-sm-center">Kelseytang.github.io uses cookies</div>
-	
-
-	 
+  <div id="myFooter-Brand" class="d-md-inline-flex justify-content-sm-center ">KELSEY TANG</div>
+  <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav" style="background-color: aquar"><a href="#">Works</a><a href="#">About</a><a href="#">Linkedin<span style="font-size: 0.8rem">↗︎</span></a><a href="#">Resume<span style="font-size: 0.8rem">↗</span></a></div>
+  <div class="d-md-inline-flex justify-content-sm-center">Kelseytang.github.io uses cookies</div>
 </footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.4.1.min.js"></script> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.4.1.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+</html>
