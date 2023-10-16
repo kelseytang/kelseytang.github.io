@@ -86,6 +86,14 @@ body {
 .latestProject-col {
   padding: 0px;
   margin: 15px;
+	
+}
+.latestProject-col .textGroup{
+	display: table-cell;
+	vertical-align: middle;
+	height:292px;
+	padding-left: 15px;
+	
 }
 .latestProject-group p {
   font-size: 1.5rem;
@@ -96,6 +104,16 @@ body {
 .latestProject-group:hover {
   filter: brightness(90%);
   background-color: #FFF6EF;
+}
+
+.latestProject-group .badge, .oldProject-card .badge  {
+  border-radius: 1rem;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	
+}
+.latestProject-group .badge{
+	font-size: 0.7em;
 }
 #latestProject, #oldProject {
   padding-top: 3rem;
