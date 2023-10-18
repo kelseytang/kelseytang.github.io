@@ -40,16 +40,20 @@
 <div class="container-fluid" id="myContent">
   <div class="container pt-3" >
     <div id="myContent-hero">
-      <h1>UX Writing Challenges</h1>
-      <p>Here, I explored the posibility of communications.</p>
+      <div class="row">
+        <div class="col-md-10">
+          <h1>UX Writing Challenges</h1>
+          <p>Here, I explored the posibility of communications.</p>
+        </div>
+      </div>
     </div>
-    <div class="row" >
+    <div class="row mt-4" >
       <!-- side menu -->
       <div class="d-none d-md-block col-md-2 order-1 order-md-2">
         <nav class="nav" id="mySideNav">
           <p id="mySideNav-heading">On this page:</p>
           <ul class="nav">
-            <li class="nav-item"><a href="#list-item-1" class="nav-link">Push Notification</a></li>
+            <li class="nav-item"><a href="#list-item-1" class="nav-link">Push Notifications</a></li>
             <li class="nav-item"><a href="#list-item-2" class="nav-link">Error Message</a></li>
             <li class="nav-item"><a href="#list-item-3" class="nav-link">Promotional Page</a></li>
           </ul>
@@ -58,7 +62,29 @@
       
       <!-- End of side menu -->
       <main class="col-md-10 order-md-1 order-2" >
-        <h2 id="list-item-1">Push Noticication</h2>
+        <div id="projectBrief" class="row">
+          
+            <div class="col-md-6">
+              <h4 >About This Project</h4>
+              <ol>
+                <li>Added the internet control feature</li>
+                <li>Restructured information architecture to accommodate future growth</li>
+              </ol>
+            </div>
+            <div class="col-md-6">
+              <h4>My role in this project</h4>
+              <ol>
+                <li>Designed User flows and user interfaces</li>
+                <li>Built high-fidelity prototypes</li>
+              </ol>
+            </div>
+         
+        </div>
+		  
+		  
+        <h2 id="list-item-1" class="categoryHeading">Push Notifications</h2>
+		  
+		  
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
             <h3>Scenario #01</h3>
@@ -142,7 +168,8 @@
           </div>
           <div class="mySectionGroup-screenshot">
             <div class="screenshot"><img src="images/uxw/Notification-D7.png"/>
-              <p align="center"><span class="captionNum">A</span>The headline only includes the latest match scores; to help users track the match's progress,<br> include a timeline of the match in the body section <span class="captionNum">B</span>.</p>
+              <p align="center"><span class="captionNum">A</span>The headline only includes the latest match scores; to help users track the match's progress,<br>
+                include a timeline of the match in the body section<span class="captionNum">B</span>.</p>
             </div>
             <div class="info row" style="margin: 0px">
               <div class="col-md-6">
@@ -193,7 +220,7 @@
             </div>
           </div>
         </div>
-        <h2 class="sub" id="list-item-2">Error Messag</h2>
+        <h2 class="sub" id="list-item-2" class="categoryHeading">Error Messag</h2>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
             <h3>Scenario #01</h3>
@@ -210,15 +237,16 @@
           </div>
           <div class="col-12 mySectionGroup-screenshot">
             <div class="screenshot"><img src="images/uxw/Action-D9.png"/>
-              <p align="center"><span class="captionNum">A</span>The headline tells the user to update the credit card, then the button <span class="captionNum">B</span>also uses the verb "Update"<br>to reinforce the call to action.</p>
+              <p align="center"><span class="captionNum">A</span>The headline tells the user to update the credit card, then the button<span class="captionNum">B</span>also uses the verb "Update"<br>
+                to reinforce the call to action.</p>
             </div>
             <div class="info row" style="margin: 0px">
               <div class="col-md-6">
                 <h4>Approach</h4>
                 <ol>
-                  <li>Since this will impact the rental service flow, use the inline notification componment, and display it until the issue is fixed. </li>
-					<li>The message should explain why the user need to take an action</li>
-					<li>The app should not force the user to immediately fix the credit card to use the app, because the user may need time to get a valid credit card</li>
+                  <li>Since this will impact the rental service flow, use the inline notification componment, and display it until the issue is fixed.</li>
+                  <li>The message should explain why the user need to take an action</li>
+                  <li>The app should not force the user to immediately fix the credit card to use the app, because the user may need time to get a valid credit card</li>
                 </ol>
               </div>
               <div class="col-md-6">
@@ -339,8 +367,7 @@
           </div>
           <div class="col-12 mySectionGroup-screenshot">
             <div class="screenshot"><img src="images/uxw/Error-D14.png"/>
-              <p align="center"><span class="captionNum">A</span>When the error occurs, the Search button is disabled.
-                <span class="captionNum">B</span>An error message with a countdown timer informs users that the app is trying to reconnect.</p>
+              <p align="center"><span class="captionNum">A</span>When the error occurs, the Search button is disabled.<span class="captionNum">B</span>An error message with a countdown timer informs users that the app is trying to reconnect.</p>
             </div>
             <div class="info row" style="margin: 0px">
               <div class="col-md-6">
@@ -389,7 +416,7 @@
             </div>
           </div>
         </div>
-        <h2 class="sub" id="list-item-3">Promotional Page</h2>
+        <h2 class="sub" id="list-item-3" class="categoryHeading">Promotional Page</h2>
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
             <h3>Scenario #01</h3>
