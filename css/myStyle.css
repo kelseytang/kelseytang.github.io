@@ -299,7 +299,7 @@ margin-top: 1rem;
 /* END Caption style */
 
 #myContent #projectBrief{
-	background: #F6F5F1;
+	background: #eee;
 	padding: 2rem;
 	margin-bottom: 3rem;
 	border-radius: 1rem;
@@ -326,7 +326,7 @@ margin-top: 1rem;
 .mySectionGroup-screenshot .info img{
 	padding: 0px;
 	margin: 0px;
-	max-width: 420px;
+	max-width: 360px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
