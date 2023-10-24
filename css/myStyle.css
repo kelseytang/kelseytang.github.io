@@ -71,11 +71,46 @@ body {
 /* HOME */
 .opening {
   text-align: center;
+	margin-bottom: 2rem;
 }
 #latestProject {
   background-color: #FFFEF8;
   padding: 0px;
 }
+
+/* 共同風格*/
+#latestProject, #oldProject {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#latestProject h3, #oldProject h3{
+	font-size: 1.8rem;
+}
+#latestProject .card-deck, #oldProject .card-deck {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#latestProject .card, #oldProject .card {
+  border-radius: 0.9rem;
+  overflow: hidden;
+	margin-bottom: 2rem;
+}
+
+#latestProject .card:hover, #oldProject .card:hover {
+  display: block;
+  /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+  background-color: #fff;
+  filter: brightness(90%);
+}
+
+#latestProject h5, #oldProject h5 {
+  color: #000;
+}
+
+
 .latestProject-group {
   /*padding-top: 1rem;
 	 padding-bottom: 1rem; */
@@ -115,31 +150,22 @@ body {
 .latestProject-group .badge{
 	font-size: 0.7em;
 }
-#latestProject, #oldProject {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-#latestProject img {
+
+/* #latestProject img {
   border-radius: 0.9rem;
   margin: 0px;
-}
+}*/
+
+
+
+
 #oldProject {
   background: #F4F3EF;
 }
 #oldProject .opening {
   margin-bottom: 2rem;
 }
-#oldProject .card {
-  border-radius: 0.9rem;
-  overflow: hidden;
-}
-#oldProject .card-deck {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-#oldProject h5 {
-  color: #000;
-}
+
 #oldProject .card .card-text {
   font-size: 0.9rem;
   line-height: 1.2rem;
@@ -147,14 +173,7 @@ body {
 	display: block;
 	min-height: 3rem;
 }
-#oldProject .card:hover {
-  display: block;
-  /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-  background-color: #fff;
-  filter: brightness(90%);
-}
+
 #oldProject .oldProject-card {
   margin-left: 0;
   margin-right: 0;
