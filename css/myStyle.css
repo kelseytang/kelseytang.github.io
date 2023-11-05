@@ -154,8 +154,11 @@ body {
 
 .latestProject-group .badge, .oldProject-card .badge  {
   border-radius: 1rem;
-	padding-left: 0.6em;
-	padding-right: 0.6em;
+	padding: 0.4em 1em 0.4em 1em;
+	/*background:#F4F3EF;
+	color: #333;*/
+	font-weight: normal;
+	font-size: 0.7rem;
 	
 }
 .latestProject-group .badge{
@@ -178,9 +181,9 @@ body {
 #oldProject .card .card-text {
   font-size: 0.9rem;
   line-height: 1.2rem;
-  color: #797979;
+  color: #333;
 	display: block;
-	min-height: 3rem;
+	min-height: 2.5rem;
 }
 
 #oldProject .oldProject-card {
@@ -191,7 +194,19 @@ body {
   background-color: #fff;
 }
 
-
+#oldProject .prjType-personal{
+	font-size: 0.8rem;
+	color: #E82427;
+}
+#oldProject .prjType-client{
+	font-size: 0.8rem;
+	color: #777;
+}
+#oldProject .prjClass{
+	font-size: 0.8rem;
+	color: #888;
+	/*font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"*/
+}
 #myFooter {
   font-size: 0.85rem;
   font-family: 'Open Sans', sans-serif;
