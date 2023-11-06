@@ -119,6 +119,11 @@ body {
 
 #latestProject h5, #oldProject h5 {
   color: #000;
+	display: block;
+	margin-bottom: 0px;
+	min-height: 56px;
+	
+	
 }
 
 
