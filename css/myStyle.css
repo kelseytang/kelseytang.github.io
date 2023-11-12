@@ -2,10 +2,10 @@
 /* CSS Document */
 body {
   font-family: 'Open Sans', sans-serif;
-	background-color: #fff;
+  background-color: #fff;
 }
 #MyNavBarContent .navbar-nav .active {
-	color: #AEAEAE;
+  color: #AEAEAE;
 }
 #myMobileNavBar {
   background-color: #fff;
@@ -43,7 +43,7 @@ body {
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' height='48' viewBox='0 -960 960 960'%3e%3cpath d='M179.435-105.869q-32.74 0-56.262-23.356-23.522-23.355-23.522-55.862v-589.826q0-32.74 23.522-56.262 23.522-23.521 56.262-23.521h294.956v79.783H179.435v589.826h294.956v79.218H179.435Zm487.13-178.782-57.131-56.001 99.739-99.739H367.652v-79.218h339.521l-99.739-99.739 57.131-56.001L860.349-479 666.565-284.651Z'/%3e%3c/svg%3e");
 }
-#myNavBar .navbar-brand a{
+#myNavBar .navbar-brand a {
   display: inline-block;
   font-size: 1.25rem;
   line-height: inherit;
@@ -71,43 +71,38 @@ body {
 /* HOME */
 .opening {
   text-align: center;
-	 margin-bottom: 3rem;
-  
+  margin-bottom: 3rem;
 }
-.opening p{
-	font-size: 1.3rem;
-	color: #505050;
-	display: block;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+.opening p {
+  font-size: 1.3rem;
+  color: #505050;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #latestProject {
   background-color: #FFFEF8;
   padding: 0px;
 }
-
 /* 共同風格*/
 #latestProject, #oldProject {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
-#latestProject h3, #oldProject h3{
-	font-size: 1.8rem;
-	 font-weight:400;
+#latestProject h3, #oldProject h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 #latestProject .card-deck, #oldProject .card-deck {
   margin-left: 0px;
   margin-right: 0px;
-	
 }
 #latestProject .card, #oldProject .card {
   border-radius: 0.9rem;
   overflow: hidden;
-	margin: 0px 0px 2rem 0px ;
+  margin: 0px 0px 2rem 0px;
 }
-
 #latestProject .card:hover, #oldProject .card:hover {
   display: block;
   /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -116,17 +111,12 @@ body {
   background-color: #fff;
   filter: brightness(90%);
 }
-
 #latestProject h5, #oldProject h5 {
   color: #000;
-	display: block;
+  /*display: block;
 	margin-bottom: 0px;
-	min-height: 56px;
-	
-	
+	min-height: 56px;*/
 }
-
-
 .latestProject-group {
   /*padding-top: 1rem;
 	 padding-bottom: 1rem; */
@@ -137,14 +127,12 @@ body {
 .latestProject-col {
   padding: 0px;
   margin: 15px;
-	
 }
-.latestProject-col .textGroup{
-	display: table-cell;
-	vertical-align: middle;
-	height:292px;
-	padding-left: 15px;
-	
+.latestProject-col .textGroup {
+  display: table-cell;
+  vertical-align: middle;
+  height: 292px;
+  padding-left: 15px;
 }
 .latestProject-group p {
   font-size: 1.5rem;
@@ -156,41 +144,31 @@ body {
   filter: brightness(90%);
   background-color: #FFF6EF;
 }
-
-.latestProject-group .badge, .oldProject-card .badge  {
+.latestProject-group .badge, .oldProject-card .badge {
   border-radius: 1rem;
-	padding: 0.4em 1em 0.4em 1em;
-	/*background:#F4F3EF;
+  padding: 0.4em 1em 0.4em 1em;
+  /*background:#F4F3EF;
 	color: #333;*/
-	font-weight: normal;
-	font-size: 0.7rem;
-	
+  font-weight: normal;
+  font-size: 0.7rem;
 }
-.latestProject-group .badge{
-	font-size: 0.7em;
+.latestProject-group .badge {
+  font-size: 0.7em;
 }
-
 /* #latestProject img {
   border-radius: 0.9rem;
   margin: 0px;
 }*/
-
-
-
-
 #oldProject {
   background: #F4F3EF;
 }
-
-
 #oldProject .card .card-text {
   font-size: 0.9rem;
   line-height: 1.2rem;
   color: #333;
-	display: block;
-	min-height: 2.5rem;
+  display: block;
+  min-height: 2.5rem;
 }
-
 #oldProject .oldProject-card {
   margin-left: 0;
   margin-right: 0;
@@ -198,19 +176,19 @@ body {
 #oldProject .card .card-body {
   background-color: #fff;
 }
-
-#oldProject .prjType-personal{
-	font-size: 0.8rem;
-	color: #777;
+#oldProject .prjType-personal {
+  font-size: 0.8rem;
+  color: #777;
+  font-family: mono
 }
-#oldProject .prjType-client{
-	font-size: 0.8rem;
-	color: #777;
+#oldProject .prjType-client {
+  font-size: 0.8rem;
+  color: #777;
 }
-#oldProject .prjClass{
-	font-size: 0.8rem;
-	color: #888;
-	/*font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"*/
+#oldProject .prjClass {
+  font-size: 0.8rem;
+  color: #888;
+  /*font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"*/
 }
 #myFooter {
   font-size: 0.85rem;
@@ -229,21 +207,29 @@ body {
 /* content style */
 #myContent {
   background-color: #fdfdf9;
-
   color: #333333;
 }
-
 /* Not in used
 #myContent .divider{
 	margin-top: 3rem;
 	text-align: center;
 	color: #959595;
 } */
-
+#myContent #about-hero {
+  padding: 60px 0px 40px 0px;
+}
+#myContent #about-hero h1 {
+  font-size: 4rem;
+  font-weight: lighter;
+  text-align: center;
+  color: #000;
+  padding: 0px 0px 1.5rem 0px;
+}
+#myContent #about-hero p {
+  text-align: left;
+}
 #myContent #myContent-hero {
-	padding: 60px 0px 40px 0px;
-	text-align: center;
-	
+  padding: 60px 0px 40px 0px;
 }
 #myContent #myContent-hero p, .mySectionGroup-heading p {
   font-size: 1.3rem;
@@ -252,11 +238,10 @@ body {
   margin-top: 1rem;
   line-height: 120%;
 }
-
-#myContent #myContent-hero h1 {
+#myContent #myContent-hero h1, #myContent #myContent-hero h1 {
   font-size: 4rem;
   font-weight: lighter;
-	text-align: center;
+  text-align: center;
   color: #000;
   padding: 0px;
 }
@@ -266,7 +251,6 @@ body {
   display: block;
   font-size: 0.9rem;
 }
-
 #mySideNav ul {
   font-size: 0.9rem;
   border-left: 0.1rem solid #eee;
@@ -284,17 +268,13 @@ body {
   padding-left: 0px;
 }
 .mySectionGroup {
-
   padding-bottom: 2rem;
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
-
-
-#myContent h2, h3, h4, #mySideNav-heading{
-	color: #000;
-	font-weight: bold;
+#myContent h2, h3, h4, #mySideNav-heading {
+  color: #000;
+  font-weight: bold;
 }
-
 #myContent h2 {
   font-size: 2rem;
 }
@@ -304,20 +284,17 @@ margin-bottom: 1rem;
 #myContent h4 {
   font-size: 1rem;
 }
-
-#myContent .headingTag{
-	font-size: 1rem;
+#myContent .headingTag {
+  font-size: 1rem;
 }
-
-#myContent .sub{
-	margin-top: 2rem;
+#myContent .sub {
+  margin-top: 2rem;
 }
-
-#myContent .categoryHeading{
-	margin-bottom: 1rem;
+#myContent .categoryHeading {
+  margin-bottom: 1rem;
 }
-.mySectionGroup-heading{
-	margin-bottom: 1rem;
+.mySectionGroup-heading {
+  margin-bottom: 1rem;
 }
 .mySectionGroup-title {
   margin-top: 30px;
@@ -325,16 +302,13 @@ margin-bottom: 1rem;
   letter-spacing: 0.1rem;
   font-size: 1.5rem;
 }
-
-
 .mySectionGroup-screenshot {
   background-color: #F6F5F1;
-margin-top: 1rem;
+  margin-top: 1rem;
   padding: 0px;
-
 }
 /* Screenshot style */
-.mySectionGroup-screenshot .screenshot img , .genScreenshot img{
+.mySectionGroup-screenshot .screenshot img, .genScreenshot img {
   max-width: 100%;
   height: auto;
   /*margin-bottom: 16px;*/
@@ -343,56 +317,59 @@ margin-top: 1rem;
 .mySectionGroup-screenshot .screenshot p, .genScreenshot p {
   /*text-align: center;*/
   font-size: 0.9rem;
-	margin: 16px 32px 16px 32px;
-	
+  margin: 16px 32px 16px 32px;
 }
 /* END Caption style */
-
-#myContent #projectBrief{
-	background: #FFF9E0;
-	padding: 2rem;
-	margin-bottom: 3rem;
-	border-radius: 1rem;
-	
+#myContent #projectBrief {
+  background: #FFF9E0;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
 }
-.mySectionGroup-screenshot .info{
-	background: #FFF9E0;
-	padding: 2rem 1rem 2rem 1rem;
-	
+.mySectionGroup .paragraph{
+margin-bottom: 2rem;	
+	margin-top: 1rem;
 }
-.mySectionGroup-screenshot .info p{
-	padding: 0px;
-	margin: 0px;
-}
-.mySectionGroup-screenshot .info ol{
-	padding-left: 1.3rem;
-	
-}
-.mySectionGroup-screenshot .info li{
-	margin-bottom: 0.2rem;
-	padding-left: 0.2rem;
-	
-}
-.mySectionGroup-screenshot .info img{
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
+.mySectionGroup .tools img{
+ max-height: 2rem;
+	margin-right: 1rem;
 }
 
-.mySectionGroup-screenshot .captionNum{
-	
-text-align: center;	display: inline-block;
-	width: 24px;
-	border-radius: 12px;
-	font-size: 0.75rem;
-	margin-bottom: 2px;
-	color: #fff;
-	background-color: #363E48;
-	margin-right: 4px;
-	
+
+
+.mySectionGroup-screenshot .info {
+  background: #FFF9E0;
+  padding: 2rem 1rem 2rem 1rem;
 }
-.genScreenshot{
-	text-align: center;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+.mySectionGroup-screenshot .info p {
+  padding: 0px;
+  margin: 0px;
+}
+.mySectionGroup-screenshot .info ol {
+  padding-left: 1.3rem;
+}
+.mySectionGroup-screenshot .info li {
+  margin-bottom: 0.2rem;
+  padding-left: 0.2rem;
+}
+.mySectionGroup-screenshot .info img {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.mySectionGroup-screenshot .captionNum {
+  text-align: center;
+  display: inline-block;
+  width: 24px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-bottom: 2px;
+  color: #fff;
+  background-color: #363E48;
+  margin-right: 4px;
+}
+.genScreenshot {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
