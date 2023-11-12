@@ -61,8 +61,9 @@ body {
   letter-spacing: 0.05rem;
 }
 #myNavBar a:hover, #myFooter a:hover {
-  color: #002199;
-  text-decoration: underline;
+  /*color: #002199;*/
+	color: #E82427;
+  text-decoration: none;
 }
 #myNavToggle {
   background-color: #eee;
@@ -179,7 +180,6 @@ body {
 #oldProject .prjType-personal {
   font-size: 0.8rem;
   color: #777;
-  font-family: mono
 }
 #oldProject .prjType-client {
   font-size: 0.8rem;
@@ -190,6 +190,12 @@ body {
   color: #888;
   /*font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"*/
 }
+
+#oldProject a{
+	text-decoration: none;
+}
+
+
 #myFooter {
   font-size: 0.85rem;
   font-family: 'Open Sans', sans-serif;
@@ -230,10 +236,11 @@ body {
 }
 #myContent #myContent-hero {
   padding: 60px 0px 40px 0px;
+	text-align: center
 }
 #myContent #myContent-hero p, .mySectionGroup-heading p {
-  font-size: 1.3rem;
-  color: #505050;
+  font-size: 1.25rem;
+  color: #353535;
   padding: 0px;
   margin-top: 1rem;
   line-height: 120%;
