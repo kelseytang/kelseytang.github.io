@@ -235,6 +235,13 @@ body {
 #myContent #about-hero p {
   text-align: left;
 }
+
+#myContent #about-hero .myProfile{
+	max-width: 80%;
+	border-radius: 50%;
+}
+
+
 #myContent #myContent-hero {
   padding: 60px 0px 40px 0px;
 	text-align: center;
