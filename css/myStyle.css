@@ -446,3 +446,15 @@ margin-bottom: 2rem;
 .audit .original .header{
 	color: #333333;
 }
+.myTable  {
+margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	width: 100%;
+}
+
+
+.myTable th, td {
+  padding: 0.9rem;
+border: 1px solid;}

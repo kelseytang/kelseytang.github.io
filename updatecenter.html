@@ -55,11 +55,10 @@
           <p id="mySideNav-heading">On this page:</p>
           <ul class="nav">
             <li class="nav-item"><a href="#list-item-1" class="nav-link">Project goals</a></li>
-            <li class="nav-item"><a href="#list-item-2" class="nav-link">Problem Inspection</a></li>
-            <li class="nav-item"><a href="#list-item-3" class="nav-link">Design for Busy Parents</a></li>
-            <li class="nav-item"><a href="#list-item-4" class="nav-link">Information Architecture</a></li>
-            <li class="nav-item"><a href="#list-item-5" class="nav-link">Visual Hierarchy</a></li>
-            <li class="nav-item"><a href="#list-item-6" class="nav-link">UIs and Interactions</a></li>
+            <li class="nav-item"><a href="#list-item-2" class="nav-link">Root Cause Analysis</a></li>
+            <li class="nav-item"><a href="#list-item-3" class="nav-link">Solution Ideation</a></li>
+            <li class="nav-item"><a href="#list-item-4" class="nav-link">Effort prioritization</a></li>
+            <li class="nav-item"><a href="#list-item-5" class="nav-link">The Design</a></li>
           </ul>
         </nav>
       </div>
@@ -67,7 +66,9 @@
       <!-- End of side menu -->
       <main class="col-md-10 order-md-1 order-2" >
         <!--  <div class="genScreenshot"><img src="images/update/updateCenter_1.gif" width="640" height="430" alt=""/></div> -->
-        <div id="projectBrief" class="row">
+  
+		
+		  <div id="projectBrief" class="row">
           <div class="col-md-6">
             <h4 id="list-item-1">Project Goals</h4>
             Streamlined the Over-the-Air update flow for nabi tablets to increase the success rate of updates.</div>
@@ -80,55 +81,57 @@
             </ul>
           </div>
         </div>
+		      <div class="genScreenshot"><img src="images/update/update_finalResult.png"/>
+          </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-2">The Design Process</h2>
-          <div class="genScreenshot"><img src="images/update/Process_1009_1600_c.png"/>
-            <p>Users' feedback</p>
-          </div>
-        </div>
-		  <div class="mySectionGroup">
-          <h2 id="list-item-3">The Result</h2>
-          <div class="genScreenshot"><img src="images/update/Design_New_Old_1600_c.png"/>
-            <p>Users' feedback</p>
-          </div>
-        </div>
-		  <div class="mySectionGroup">
-          <h2 id="list-item-4"><span class="headingTag">Define the Problem</span><br>
-            Is It Ugly UI’s Fault? Anything Else?</h2>
-          <p>There was a problem with our OTA flow - Every time we release update package, the customer care team had to spend a lot of time to notify and educate users. But, with so much effort, our customer seemed still confusing, no matter they were new or old users.
-            Except the ugly UI, I believe there was a underlying reason. So i drew a diagram of user journey to exam the OTA flow step by step.</p>
-          <p>Based on the flow, I found the OTA flow was lack of notifications. therefore, our customer had no way to know there is new update available.</p>
-          <div class="genScreenshot"><img src="images/update/userJourney_1009_1600_c.png"/>
-            <p>Users' feedback</p>
-          </div>
+          <h2 id="list-item-2"><span class="headingTag">Root Cause Analysis</span><br>
+            Inspect Why the Flow Confused People</h2>
+          <p>Every time we released an update package, the Customer Care team had to spend a lot of time to notify and educate users. However, with so much effort, our customers seemed still confused.</p>
+          <h4>The 3 frequently asked questions and their root cause:</h4>
+          <table class="myTable">
+            <tbody>
+              <tr>
+                <th scope="col">Frequently asked questions</th>
+                <th scope="col">Root cause</th>
+              </tr>
+              <tr>
+                <td>How do I know my tablet is up to date?</td>
+                <td>Lack of update status</td>
+              </tr>
+              <tr>
+                <td>What should I do to update my tablet?</td>
+                <td>Lack of instruction</td>
+              </tr>
+              <tr>
+                <td>The update process went wrong, what should I do?</td>
+                <td>Lack of error handling</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-5"><span class="headingTag">Identify the Needs</span><br>
-            What Did Customer Complain About?</h2>
-          <p>On our product Facebook page, there were 3 frequently asked questions about system update:</p>
-          <ul>
-            <li><b>What should i do to update my tablet?</b><br>
-              → Root cause: No notification</li>
-            <li><b>The update process went wrong, what should I do?</b><br>
-              → Root cause: No error handling and update instruction</li>
-            <li><b>How do i know my tablet is up to date?</b><br>
-              → Root cause: UI design</li>
-          </ul>
-          <div class="genScreenshot"><img src="images/update/updateCenter_feedback.png"/>
-            <p>Users' feedback</p>
+          <h2 id="list-item-3"><span class="headingTag">Solution Ideation</span><br>Identify the Critical Step in the User Journey</h2>
+          <p>I drew a diagram to examine the OTA user journey. As illustrated below, the update notification is crucial to the user journey. Without it, the user is unlikely to take any action.</p>
+          <div class="genScreenshot"><img src="images/update/update_userJourney.png"/>
+            <p>The user journey of the OTA</p>
           </div>
         </div>
         
+        
+        
         <div class="mySectionGroup">
-          <h2 id="list-item-6"><span class="headingTag">Prioritising The features:</span><br>
-            Resolving the root cause first</h2>
-          <p>Our goal was to improve the update successful rate and lower customer care team's workload, so we need to clean all obstacles for customer.</p>
-          <p>Based on the user journey and customer feedback, the ugly UI seemed not the root cause. The notification system and instruction were the real solutions of the fundamental problems. Therefore, the priority was readjusted as below:</p>
-          <div class="genScreenshot"><img src="images/update/updateCenter_priority.png"/>
-            <p>caption</p>
+          <h2 id="list-item-4"><span class="headingTag">Effort prioritization</span><br>
+           Make it easy, then make it pretty</h2>
+          <p>The objective was to enhance the success rate of updates and reduce the workload of the Customer Care team. To achieve this, we aimed to eliminate any obstacles faced by the customers. After analyzing the user journey and taking into account customer feedback, we concluded that the ugly UI was not as significant a problem as the notification system and instructions. Therefore, we prioritized our focus as below:
+</p>
+         
+          <div class="genScreenshot"><img src="images/update/update_priority.png"/>
+
           </div>
-          <h2>Design</h2>
-          <h3 id="list-item-7">The Interface</h3>
+          <h2>The Design</h2>
+			        <div class="genScreenshot"><img src="images/update/Install.png"/>
+            <p>When the update is available, the system proactively prompts users.</p>
+          </div>
           <div class="genScreenshot"><img src="images/update/1_nabiApp.png"/>
             <p>caption here</p>
           </div>
@@ -141,14 +144,11 @@
           <div class="genScreenshot"><img src="images/update/2_System_up-to-date.png"/>
             <p>caption here</p>
           </div>
-			 <h2 id="list-item-8"><span class="headingTag">Design</span><br>
-           Notifications</h2>
- 
-          <div class="genScreenshot"><img src="images/update/Install.png"/>
-            <p>caption here</p>
-          </div>
-			 <h2 id="list-item-9"><span class="headingTag">Design</span><br>
-           Error Handling</h2>
+          <h2 id="list-item-8"><span class="headingTag">Design</span><br>
+            Notifications</h2>
+  
+          <h2 id="list-item-9"><span class="headingTag">Design</span><br>
+            Error Handling</h2>
           <div class="genScreenshot"><img src="images/update/update_damage.png"/>
             <p>caption here</p>
           </div>
