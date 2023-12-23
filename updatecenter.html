@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,12 @@
 <!-- InstanceEndEditable -->
 <!-- Bootstrap -->
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	<link href="css/myStyle.css" rel="stylesheet" type="text/css">
+<link href="css/myStyle.css" rel="stylesheet" type="text/css">
 <!-- Google font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Serif:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap" rel="stylesheet">
-	
+
 <!-- my style sheet -->
 <link href="css/myStyle.css" rel="stylesheet" type="text/css">
 </head>
@@ -25,31 +26,28 @@
 <nav class="navbar navbar-expand-lg" id="myNavBar">
   <div class="container" >
     <div class="navbar-brand"><a href="index.html">KELSEY TANG</a></div>
-    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"> <span class="navbar-toggler-icon"></span> </button>
+    <button class="navbar-toggler" id="myNavToggle" type="button" data-toggle="collapse" data-target="#MyNavBarContent"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="MyNavBarContent">
       <ul class="navbar-nav ml-auto">
-		 
-        <li class="nav-item"><a class="nav-link" href="index.html">WORKS <span class="sr-only">(current)</span></a></li>
-		  <li class="nav-item"><a class="nav-link" href="resume.html">RESUME</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">WORKS<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">RESUME</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
-		
       </ul>
-      
     </div>
   </div>
 </nav>
 <!-- InstanceBeginEditable name="Editable" -->
 <div class="container-fluid" id="myContent">
   <div class="container pt-3" >
-	  <div id="myContent-hero">
+    <div id="myContent-hero">
       <div class="row">
         <div class="col-lg-10 col-md-12">
           <h1>Update Center</h1>
-         <p>Redesigned the Over-The-Air update tool for nabi kid tablet.<br>This project aimed to streamline the the OTA flow for non-tech savvy user.</p>
+          <p>Redesigned the Over-The-Air update tool for nabi kid tablet.<br>
+            This project aimed to streamline the the OTA flow for non-tech savvy user.</p>
         </div>
       </div>
     </div>
-    
     <div class="row" >
       <!-- side menu -->
       <div class="d-none d-md-block col-md-2 order-1 order-md-2 pl-3">
@@ -57,7 +55,7 @@
           <p id="mySideNav-heading">On this page:</p>
           <ul class="nav">
             <li class="nav-item"><a href="#list-item-1" class="nav-link">Project goals</a></li>
-            <li class="nav-item"><a href="#list-item-2" class="nav-link">Defining The Problem</a></li>
+            <li class="nav-item"><a href="#list-item-2" class="nav-link">Problem Inspection</a></li>
             <li class="nav-item"><a href="#list-item-3" class="nav-link">Design for Busy Parents</a></li>
             <li class="nav-item"><a href="#list-item-4" class="nav-link">Information Architecture</a></li>
             <li class="nav-item"><a href="#list-item-5" class="nav-link">Visual Hierarchy</a></li>
@@ -68,27 +66,44 @@
       
       <!-- End of side menu -->
       <main class="col-md-10 order-md-1 order-2" >
-      <!--  <div class="genScreenshot"><img src="images/update/updateCenter_1.gif" width="640" height="430" alt=""/></div> -->
-		  <div id="projectBrief" class="row">
-        
-            <div class="col-md-6">
+        <!--  <div class="genScreenshot"><img src="images/update/updateCenter_1.gif" width="640" height="430" alt=""/></div> -->
+        <div id="projectBrief" class="row">
+          <div class="col-md-6">
             <h4 id="list-item-1">Project Goals</h4>
-            Streamlined nabi kid tablets' Over-The-Air update flow</div>
+            Streamlined the Over-the-Air update flow for nabi tablets to increase the success rate of updates.</div>
           <div class="col-md-6">
             <h4>My role in this project</h4>
-            <p>I was the UX/UI designer, responsible for information architecture, UX, UI and prototype.</p>
+            <ul>
+              <li>Information architechure</li>
+              <li>User interface</li>
+              <li>Prototype</li>
+            </ul>
           </div>
-      
         </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-2"><span class="headingTag">sub heading goes here</span><br>
+          <h2 id="list-item-2">The Design Process</h2>
+          <div class="genScreenshot"><img src="images/update/Process_1009_1600_c.png"/>
+            <p>Users' feedback</p>
+          </div>
+        </div>
+		  <div class="mySectionGroup">
+          <h2 id="list-item-3">The Result</h2>
+          <div class="genScreenshot"><img src="images/update/Design_New_Old_1600_c.png"/>
+            <p>Users' feedback</p>
+          </div>
+        </div>
+		  <div class="mySectionGroup">
+          <h2 id="list-item-4"><span class="headingTag">Define the Problem</span><br>
             Is It Ugly UI’s Fault? Anything Else?</h2>
           <p>There was a problem with our OTA flow - Every time we release update package, the customer care team had to spend a lot of time to notify and educate users. But, with so much effort, our customer seemed still confusing, no matter they were new or old users.
             Except the ugly UI, I believe there was a underlying reason. So i drew a diagram of user journey to exam the OTA flow step by step.</p>
           <p>Based on the flow, I found the OTA flow was lack of notifications. therefore, our customer had no way to know there is new update available.</p>
+          <div class="genScreenshot"><img src="images/update/userJourney_1009_1600_c.png"/>
+            <p>Users' feedback</p>
+          </div>
         </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-3"><span class="headingTag">sub heading goes here</span><br>
+          <h2 id="list-item-5"><span class="headingTag">Identify the Needs</span><br>
             What Did Customer Complain About?</h2>
           <p>On our product Facebook page, there were 3 frequently asked questions about system update:</p>
           <ul>
@@ -103,39 +118,43 @@
             <p>Users' feedback</p>
           </div>
         </div>
+        
         <div class="mySectionGroup">
-          <h2 id="list-item-4"><span class="headingTag"> Prioritising The features:</span><br>Resolving the root cause first</h2>
+          <h2 id="list-item-6"><span class="headingTag">Prioritising The features:</span><br>
+            Resolving the root cause first</h2>
           <p>Our goal was to improve the update successful rate and lower customer care team's workload, so we need to clean all obstacles for customer.</p>
           <p>Based on the user journey and customer feedback, the ugly UI seemed not the root cause. The notification system and instruction were the real solutions of the fundamental problems. Therefore, the priority was readjusted as below:</p>
           <div class="genScreenshot"><img src="images/update/updateCenter_priority.png"/>
             <p>caption</p>
           </div>
           <h2>Design</h2>
-          <h3 id="list-item-5">The Interface</h3>
-			 <div class="genScreenshot"><img src="images/update/1_nabiApp.png"/>
+          <h3 id="list-item-7">The Interface</h3>
+          <div class="genScreenshot"><img src="images/update/1_nabiApp.png"/>
             <p>caption here</p>
           </div>
-			 <div class="genScreenshot"><img src="images/update/1_nabiApp_History.png"/>
+          <div class="genScreenshot"><img src="images/update/1_nabiApp_History.png"/>
             <p>caption here</p>
           </div>
-			 <div class="genScreenshot"><img src="images/update/3_Restoration.png"/>
+          <div class="genScreenshot"><img src="images/update/3_Restoration.png"/>
             <p>caption here</p>
           </div>
-			 <div class="genScreenshot"><img src="images/update/2_System_up-to-date.png"/>
+          <div class="genScreenshot"><img src="images/update/2_System_up-to-date.png"/>
             <p>caption here</p>
           </div>
-          <h3 id="list-item-6">Notifications</h3>
-			 <div class="genScreenshot"><img src="images/update/Install.png"/>
+			 <h2 id="list-item-8"><span class="headingTag">Design</span><br>
+           Notifications</h2>
+ 
+          <div class="genScreenshot"><img src="images/update/Install.png"/>
             <p>caption here</p>
           </div>
-			<h3 id="list-item-7">Error Handling</h3>
-			 <div class="genScreenshot"><img src="images/update/Damage.png"/>
+			 <h2 id="list-item-9"><span class="headingTag">Design</span><br>
+           Error Handling</h2>
+          <div class="genScreenshot"><img src="images/update/Damage.png"/>
             <p>caption here</p>
           </div>
-			 <div class="genScreenshot"><img src="images/update/Low Battery.png"/>
+          <div class="genScreenshot"><img src="images/update/Low Battery.png"/>
             <p>caption here</p>
           </div>
-			
         </div>
       </main>
       <p></p>
@@ -149,23 +168,24 @@
 <!-- InstanceEndEditable -->
 <footer id="myFooter" class="container pt-3">
   <div id="myFooter-Brand">KELSEY TANG | PORTFOLIO 2023</div>
-  <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav"> <a href="index.html">WORKS</a> <a href="resume.html">RESUME</a> <a href="about.html">ABOUT</a> </div>
+  <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav"><a href="index.html">WORKS</a><a href="resume.html">RESUME</a><a href="about.html">ABOUT</a></div>
   <!--
   <div id="myFooter-Brand" class="d-md-inline-flex justify-content-sm-center ">KELSEY TANG</div>
 	 <div class="d-md-inline-flex justify-content-sm-center" id="myFooter-nav"> 
 		  <a href="index.html">WORKS</a>
 		 <a href="resume.html">RESUME</a>
 		 <a href="about.html">ABOUT</a> 
-	</div> --> 
-  <!-- <a href="#">LinkedIn<span style="font-size: 0.8rem">↗</span></a>--> 
-  <!--<div class="d-md-inline-flex justify-content-sm-center" style="color:#8B8B8B">© 2023 Kelsey Tang</div>--> 
+	</div> -->
+  <!-- <a href="#">LinkedIn<span style="font-size: 0.8rem">↗</span></a>-->
+  <!--<div class="d-md-inline-flex justify-content-sm-center" style="color:#8B8B8B">© 2023 Kelsey Tang</div>-->
   
 </footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.4.1.min.js"></script> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.4.1.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+</html>
