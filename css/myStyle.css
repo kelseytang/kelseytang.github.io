@@ -215,6 +215,7 @@ body {
 #myContent {
   background-color: #fdfdf9;
   color: #333333;
+	border-bottom: thin solid #CDCDCD;
 }
 /* Not in used
 #myContent .divider{
@@ -341,6 +342,7 @@ body {
   margin-bottom: 3rem;
   border-radius: 1rem;
 }
+
 .mySectionGroup .paragraph{
 margin-bottom: 2rem;	
 	margin-top: 1rem;
