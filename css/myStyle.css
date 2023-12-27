@@ -324,7 +324,7 @@ body {
   padding: 0px;
 }
 /* Screenshot style */
-.mySectionGroup-screenshot .screenshot img, .genScreenshot img {
+.mySectionGroup-screenshot .screenshot img, .genScreenshot img, .topScreenshot img {
   max-width: 100%;
   height: auto;
   /*margin-bottom: 16px;*/
@@ -338,7 +338,7 @@ body {
 /* END Caption style */
 #myContent #projectBrief {
   background: #FFF9E0;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
   margin-bottom: 3rem;
   border-radius: 1rem;
 }
@@ -349,7 +349,6 @@ margin-bottom: 2rem;
 }
 .mySectionGroup .tools .tools-block img{
  max-height: 2.8rem;
-	margin-right: 1rem;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -406,6 +405,11 @@ margin-bottom: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.topScreenshot {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+}
 .auditTXT{
 	margin-top: 1.5rem;
 }
@@ -459,4 +463,4 @@ margin-left: auto;
 
 .myTable th, td {
   padding: 0.9rem;
-border: 1px solid;}
+border: 1px solid #888;}
