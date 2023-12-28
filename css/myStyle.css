@@ -268,20 +268,31 @@ body {
   font-size: 0.9rem;
 }
 #mySideNav ul {
-  font-size: 0.9rem;
-  border-left: 0.1rem solid #eee;
+  font-size: 0.8rem;
+  /*border-left: 0.1rem solid #eee;*/
   padding-left: 0px;
 }
 #mySideNav a {
   color: #666;
-  padding-left: 15px;
+	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+	display: block;
+  
+	border-left: thin #CDCDCD solid;
+
 }
+
 #mySideNav .active, #mySideNav a:checked {
   color: #E82427 !important;
+	border-left: 2px #E82427 solid;
 }
 #mySideNav li {
   list-style: none;
   padding-left: 0px;
+
+	
+	
+	
+	
 }
 .mySectionGroup {
   padding-bottom: 2rem;

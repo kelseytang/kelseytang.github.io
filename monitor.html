@@ -38,7 +38,7 @@
     <div id="myContent-hero">
       <div class="row">
         <div class="col-lg-10">
-          <h1>Baby Monitor</h1>
+          <h1 id="list-item-1">Baby Monitor</h1>
           <p>A companion app for Aristotle Baby Monitor, enabling parents to remotely monitor their baby's room with live video and audio.</p>
         </div>
       </div>
@@ -54,26 +54,24 @@
           <p id="mySideNav-heading">On this page:</p>
           <ul class="nav">
             <li class="nav-item"><a href="#list-item-1" class="nav-link">Project goals</a></li>
-            <li class="nav-item"><a href="#list-item-2" class="nav-link">Redesign Without Metrics</a></li>
-            <li class="nav-item"><a href="#list-item-3" class="nav-link">Design for Busy Parents</a></li>
-            <li class="nav-item"><a href="#list-item-4" class="nav-link">Information Architecture</a></li>
-            <li class="nav-item"><a href="#list-item-5" class="nav-link">Visual Hierarchy</a></li>
-            <li class="nav-item"><a href="#list-item-6" class="nav-link">UIs and Interactions</a></li>
+            <li class="nav-item"><a href="#list-item-2" class="nav-link">Approach</a></li>
+            <li class="nav-item"><a href="#list-item-3" class="nav-link">Design Considerations</a></li>
+            <li class="nav-item"><a href="#list-item-4" class="nav-link">The User Flow</a></li>
+            <li class="nav-item"><a href="#list-item-5" class="nav-link">User Interfaces</a></li>
+        
           </ul>
         </nav>
       </div>
       
       <!-- End of side menu -->
       <main class="col-md-10 order-md-1 order-2" >
-  <div class="topScreenshot"><img src="images/monitor/monitor_top.jpg"/> </div>
+        <div class="topScreenshot"><img src="images/monitor/monitor_top.jpg"/> </div>
         <div id="projectBrief" class="row">
           <div class="col-md-6">
-			  
-             <h4 id="list-item-1">Project Goals</h4>
+            <h4 >Project Goals</h4>
             <p>Based on existing hardware specs, mapping out the feasible features</p>
           </div>
           <div class="col-md-6">
-			 
             <h4>My role in this project</h4>
             <ol>
               <li>Analyzed product position</li>
@@ -82,10 +80,14 @@
             </ol>
           </div>
         </div>
-		
         <div class="mySectionGroup">
           <h2 id="list-item-2"><span class="headingTag">Approach</span><br>
-            Distinguishing the Security Cameras and Baby Monitors</h2>
+            Find the MVP</h2>
+        </div>
+        <div class="mySectionGroup">
+          <h3>1. Distinguishing Between Security Cameras and Baby Monitors</h3> <div class="genScreenshot"><img src="images/monitor/monitor_house.webp"/>
+            <p>Baby monitors are primaryly for close-range observation.</p>
+          </div>
           <table class="myTable">
             <tbody>
               <tr>
@@ -105,42 +107,62 @@
               </tr>
             </tbody>
           </table>
-          <div class="genScreenshot"><img src="images/monitor/monitor_house.png"/> </div>
+			
         </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-3"><span class="headingTag">Design</span><br>
-            Connectivity Takes the Lead</h2>
-          <p>Babies are fragile and in need of 24/7 attention. New parents are busy and lack of sleep, so they seek gadgets to help them survive their multitasking life.
-            It is easy to come up lots of ideas and put them into our product. But development resource is limited, we need to focus on the most important things. </p>
-          <div class="genScreenshot"><img src="images/monitor/monitor_mood.png"/>
-            <p>caption</p>
-          </div>
-          <div class="genScreenshot"><img src="images/monitor/monitor_journey.png"/>
-            <p>caption</p>
+          <h3>2. Finding New parents' Jobs-to-be-Done</h3>
+          <div class="genScreenshot"><img src="images/monitor/monitor_mood.webp"/>
+            <p>New parents' mood may swing for their baby.</p>
           </div>
         </div>
-       
-		  <div class="mySectionGroup">
+        <div class="mySectionGroup">
+          <h3>3. Identifying the Critical Step in the User Journey</h3>
+          <div class="genScreenshot"><img src="images/monitor/monitor_journey.webp"/>
+            <p>Instant live video access is crucial for users.</p>
+          </div>
+        </div>
+        <div class="mySectionGroup">
+          <h2 id="list-item-3"><span class="headingTag">Design Considerations</span><br>
+            Connectivity Takes the Lead</h2>
+        </div>
+        <div class="mySectionGroup">
+          <h3>1. Adjusting the video quality automatically to adapt the connection</h3>
+          <div class="genScreenshot"><img src="images/monitor/monitor_quality.webp"/>
+            <p>To ensure an uninterrupted streaming, the system automatically adjust the video quality based on internet connection strength.</p>
+          </div>
+        </div>
+        <div class="mySectionGroup">
+          <h3>2. Providing pre-set device configurations to ensure a smooth experience</h3>
+          <p>Watching videos on mobile may cost real money if users are not on Wi-Fi, so we turn off the following by default:
+          <ol>
+            <li>Watch full HD 1080P</li>
+            <li>Use mobile data </li>
+          </ol>
+          </p>
+          <p>To prevent SD card damage or running out of memory too soon, we turn off the following features by default:
+          <ol>
+            <li>Continuous video recording </li>
+            <li>Record full HD 1080P</li>
+          </ol>
+          </p>
+          <div class="genScreenshot"><img src="images/monitor/monitor_config.webp"/><p>We turn off many features by default to prevent unexpected incidents.</p> </div>
+        </div>
+        <div class="mySectionGroup">
           <h2 id="list-item-4"><span class="headingTag">Design</span><br>
             The User Flow</h2>
           <video width="100%" controls="controls" muted="muted" loop="loop" >
             <source src="images/monitor/monitor_flow.webm" type="video/webm">
             <source src="images/monitor/monitor_flow.mp4" type="video/mp4">
           </video>
-          
         </div>
         <div class="mySectionGroup">
           <h2 id="list-item-5"><span class="headingTag">Design</span><br>
             User Interfaces</h2>
-          
           <div class="genScreenshot"><img src="images/monitor/monitor_UI.webp"/>
-            <p>Design for tables</p>
           </div>
           <div class="genScreenshot"><img src="images/monitor/monitor_activity.webp"/>
-            <p>Design for tables</p>
+            <p>The activity log allows parents to stay informed about their baby's activities when they are away from the room.</p>
           </div>
-          
-          
         </div>
       </main>
       <p></p>
