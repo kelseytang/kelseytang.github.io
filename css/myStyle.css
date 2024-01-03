@@ -431,9 +431,9 @@ margin-bottom: 2rem;
 
 .audit .issue, .audit .suggestion, .audit .original{
 	border-radius: 15px;
-	padding: 10px 16px 16px 16px;
+	padding: 8px 12px 12px 12px;
 	display: inline-block;
-	max-width: 45%;
+	max-width: 48%;
 }
 .audit .issue{
 	background:#FFDEDE;
@@ -450,7 +450,7 @@ margin-bottom: 2rem;
 .audit .issue .header, .audit .suggestion .header, .audit .original .header{
 	font-size: 0.8rem;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 	font-weight: bold;
 }
 
