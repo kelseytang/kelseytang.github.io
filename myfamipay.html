@@ -93,7 +93,11 @@
                   <h4>Why this matters to users?</h4>
                   <p>sdasdasd</p>
                   <h4>Severity Rating ●●●●●</h4>
-                  <p>●●●●●</p>
+					<p>Everyone will notice it, and it’s a blocker in the critical user journey.</p>
+					<p>●●●●○ Majority will notice it, and it slows down users completing a task.</p>
+					<p>●●●○○ Some users will notice it, but it won’t affect the functionality.</p>
+					<p>●●○○○ Minor users will notice it, but they can tolerate it.</p>
+					<p>●○○○○ Users may or may not notice it.</p>
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="images/famipay/issue_onboarding_1.webp">
@@ -105,25 +109,23 @@
                 </div>
               </div>
             </div>
-            <button class="accordion">[WIP]2. Error message</button>
+            <button class="accordion">2. Use text to signal errors</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>Observation</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <h4>Why this matters to users?</h4>
-                  <p>sdasdasd</p>
-                  <h4>Severity</h4>
-                  <p>●○○○○</p>
-                  <h4>Reference</h4>
-                  <p><a href="https://www.smashingmagazine.com/2021/08/frustrating-design-patterns-disabled-buttons/" target="_blank">Usability Pitfalls of Disabled Buttons</a></p>
+                  <p>If a user inputs incorrect information, the app signals an error by changing the text color to red without any explanation.</p>
+                  <h4>Why this matters?</h4>
+                  <p>Using only the red color to convey errors could create a barrier for users with visual impairments. Depending on users' life experience, some users may not be able to understand what to do next when there is no instruction.</p>
+                  <h4>Severity Rating ●●●○○</h4>
+                  <p>Some users will notice it, but it won’t affect the functionality.</p>
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="images/famipay/issue_error_1.webp">
-                    <div class="caption">The "Agree" button is greyed out.</div>
+                    <div class="caption">The credit card numbers turn red when they are invalid, but no further instructions are provided.</div>
                   </div>
                   <div class="issueR"> <img src="images/famipay/issue_error_2.webp">
-                    <div class="caption">The app uses the grey color for secondary buttons.</div>
+                    <div class="caption">There is no explanation for why the card expiration date field turns red.</div>
                   </div>
                 </div>
               </div>
@@ -201,18 +203,17 @@
           </div>
           <div class="mySectionGroup">
             <h3>III. Visual Design</h3>
-            <button class="accordion">[WIP]1. Maintain visual consistency</button>
+            <button class="accordion">1. Maintain visual consistency</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>Observation</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <h4>Why this matters to users?</h4>
-                  <p>sdasdasd</p>
-                  <h4>Severity</h4>
-                  <p>●○○○○</p>
-                  <h4>Reference</h4>
-                  <p><a href="https://www.smashingmagazine.com/2021/08/frustrating-design-patterns-disabled-buttons/" target="_blank">Usability Pitfalls of Disabled Buttons</a></p>
+                  <p>The app has several components that are not consistently presented throughout the app. For example, the passcode input UIs in Fig 2 are inconsistent.</p>
+                  <h4>Why this matters?</h4>
+                  <p>People tend to rely on their experience to respond and interact with the world. If the design is inconsistent, people have to put extra mental effort into learning and remembering. Additionally, design inconsistency also creates a negative impression as it looks unprofessional.</p>
+                  <h4>Severity Rating ●●●○○</h4>
+                  <p>Some users will notice it, but it won’t affect the functionality.</p>
+                 
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="images/famipay/issue_consistency_1.webp">
@@ -224,25 +225,24 @@
                 </div>
               </div>
             </div>
-            <button class="accordion">[WIP]2. Provide touch feedback for interactive element</button>
+            <button class="accordion">2. Provide touch feedback for interactive elements</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>Observation</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <h4>Why this matters to users?</h4>
-                  <p>sdasdasd</p>
-                  <h4>Severity</h4>
-                  <p>●●○○○</p>
-                  <h4>The solution</h4>
-                  <p>sdasdasd</p>
+                  <p>Many interactive elements do not provide sufficient visual feedback upon touch.</p>
+                  <h4>Why this matters?</h4>
+                  <p>Touch feedback provides confirmation and highlights tappable areas for users to easily distinguish where their input has been received.</p> <p>This is particularly useful when users' devices are not powerful.</p>
+                  <h4>Severity Rating ●●○○○</h4>
+                  <p>Minor users will notice it, but they can tolerate it.</p>
+              
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="images/famipay/issue_touch_1.webp">
-                    <div class="caption">xxxxxxxx xxxxxxxx xxxxxxxx</div>
+                    <div class="caption">Most interactive elements don't have touch feedback.</div>
                   </div>
-                  <div class="issueR"> <img src="images/famipay/placeholder.webp">
-                    <div class="caption">xxxxxxxx</div>
+                  <div class="issueR"> <img src="images/famipay/issue_touch_2.webp">
+                    <div class="caption">The barcode button doesn't provide any visual feedback upon tap.</div>
                   </div>
                 </div>
               </div>
@@ -261,7 +261,6 @@
                   <ul>
                     <li><a href="https://developer.apple.com/design/human-interface-guidelines/alerts" target="_blank">iOS Alerts</a> </li>
                     <li><a href="https://m3.material.io/components/dialogs/overview" target="_blank">Material Design guidelines</a> </li>
-                    
                   </ul>
                 </div>
                 <div class="col-lg-7 audit">
