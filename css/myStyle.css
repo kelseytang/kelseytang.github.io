@@ -426,7 +426,7 @@ margin-bottom: 2rem;
 }
 .audit img{
 	max-width: 100%;
-	border-radius: 8px;
+	border-radius: 4px;
 }
 
 .audit .suggestion, .audit .original{
@@ -446,12 +446,12 @@ margin-bottom: 2rem;
 .audit .issue .caption, .audit .issueR .caption, .audit .issueL .caption{
 	font-size: 0.8rem;
 	margin-top: 0.5rem;
-	text-align: center;
+	
 	
 }
 .audit .issue{
 	border-radius: 15px;
-	padding: 0.5rem;
+	padding: 0rem;
 	display: block;
 	max-width: 48%;
 	margin-left: auto;
