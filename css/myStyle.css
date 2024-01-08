@@ -537,14 +537,30 @@ border: 1px solid #888;}
 	margin: 0.8rem 0 0.8rem 0.8rem;
 }
 .mySectionGroup .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  /*content: '\02795';  Unicode character for "plus" sign (+) */
+	content: '\02795';
+	
   float: right;
   margin-left: 5px;
-	color: #0069FE;
+	font-weight: normal;
 }
 
 .mySectionGroup .showContent:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	content: "\2796";
+
+  /*content: "\2796";  Unicode character for "minus" sign (-) 
+	background-image:url("../images/icon_googleDrive.png");*/
 	
 	
+}
+
+.blankPg:after {
+	content: "↗︎";
+	margin-left: 0.3rem;
+	color:#5591ff;
+	font-size: 0.8rem;
+	font-weight: bold;
+
+	
+
 }

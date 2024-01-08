@@ -39,7 +39,7 @@
       <div class="row">
         <div class="col-lg-10">
           <h1 id="list-item-1">Usability Audit for My FamiPay</h1>
-          <p>My FamiPay is a mobile payment service exclusively for the FamilyMart stores in Taiwan. This is just a sample to demonstrate how I conduct an audit review.</p>
+          <p>My FamiPay is a mobile payment service exclusively for the FamilyMart stores in Taiwan. This is just a example to demonstrate how I conduct an audit review.</p>
         </div>
       </div>
     </div>
@@ -69,11 +69,11 @@
           <div class="col-md-6">
             <h4>Review Criteria</h4>
             <ol>
-              <li><a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines</a></li>
-              <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank">10 Usability Heuristics for User Interface Design</a></li>
-              <li><a href="https://developer.apple.com/design/human-interface-guidelines/writing" target="_blank">Apple - Writing for interface</a></li>
-              <li><a href="https://m3.material.io/foundations/content-design/overview" target="_blank">Material Design - Content design</a></li>
-              <li><a href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/principles-of-mobile-app-design-introduction/" target="_blank">Principles of Mobile App Design</a></li>
+              <li><a href="https://www.w3.org/TR/WCAG21/" target="_blank" class="blankPg">Web Content Accessibility Guidelines</a></li>
+              <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank" class="blankPg">10 Usability Heuristics for User Interface Design</a></li>
+              <li><a href="https://developer.apple.com/design/human-interface-guidelines/writing" target="_blank" class="blankPg">Apple - Writing for interface</a></li>
+              <li><a href="https://m3.material.io/foundations/content-design/overview" target="_blank" class="blankPg">Material Design - Content design</a></li>
+              <li><a href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/principles-of-mobile-app-design-introduction/" target="_blank" class="blankPg">Principles of Mobile App Design</a></li>
             </ol>
           </div>
         </div>
@@ -82,15 +82,16 @@
             <h2 id="list-item-2">Identified Opportunities</h2>
           </div>
           <div class="mySectionGroup">
-            <h3>I. Learnability</h3>
-            <button class="accordion">1. Provide detailed onboarding</button>
+            <h3>I. Content Design</h3>
+            <button class="accordion">1. Make the credit card linking process incentivized and imfomative</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>Observation</h4>
-                  <p>The application does not provide clear information about the advantages of binding credit cards and the distinction between My FamiPay and PlusPay. Additionally, the app does not disclose the credit card validation fee of NT$ 1 upfront.</p>
+                  <p>The app lacks clarity in explaining the benefits of linking credit cards and distinguishing between My FamiPay and PlusPay. Moreover, the credit card validation fee of NT$ 1 is not disclosed upfront.
+					</p>
                   <h4>Why this matters?</h4>
-                  <p>For certain users, mobile payment may be a novel concept, and in Taiwan, where credit card data is considered highly confidential, a lack of transparency can potentially  undermine users' confidence and trust, leaving them hesitant to try the service.
+                  <p>For certain users, mobile payment may be a novel concept, and in Taiwan, where credit card details are considered highly confidential, a lack of transparency can potentially  undermine users' confidence and trust, leaving them hesitant to try the service.
 </p>
                   <h4>Severity Rating ●●●●○</h4>
 					
@@ -107,28 +108,8 @@
                 </div>
               </div>
             </div>
-            <button class="accordion">2. Use text to signal errors</button>
-            <div class="panel">
-              <div class="panelContent row">
-                <div class="col-lg-5">
-                  <h4>Observation</h4>
-                  <p>If a user inputs incorrect information, the app signals an error by changing the text color to red without any explanation.</p>
-                  <h4>Why this matters?</h4>
-                  <p>Using only the red color to convey errors could create a barrier for users with visual impairments. Depending on users' life experience, some users may not be able to understand what to do next when there is no instruction.</p>
-                  <h4>Severity Rating ●●●○○</h4>
-                  <p>Some users will notice it, but it won’t affect the functionality.</p>
-                </div>
-                <div class="col-lg-7 audit">
-                  <div class="issueL"> <img src="images/famipay/issue_error_1.webp">
-                    <div class="caption">The credit card numbers turn red when they are invalid, but no further instructions are provided.</div>
-                  </div>
-                  <div class="issueR"> <img src="images/famipay/issue_error_2.webp">
-                    <div class="caption">There is no explanation for why the card expiration date field turns red.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="accordion">3. Have concise writing</button>
+            
+            <button class="accordion">2. Have concise writing</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
@@ -139,7 +120,8 @@
                   <h4>Severity Rating ●●●●○</h4>
                   <p>Majority will notice it, and it slows down users completing a task.</p>
                   <h4>Helpful guidelines</h4>
-                  <p><a href="https://m2.material.io/design/communication/confirmation-acknowledgement.html" target="_blank">Material's writing guidelines</a></p>
+					<ul><li><a href="https://m2.material.io/design/communication/confirmation-acknowledgement.html" target="_blank" class="blankPg">Material's writing guidelines</a></li></ul>
+                
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="images/famipay/issue_uxw_2.webp">
@@ -152,33 +134,9 @@
               </div>
             </div>
           </div>
+          
           <div class="mySectionGroup">
-            <h3>II. Error Prevention</h3>
-            <button class="accordion">1. Enable users to generate a new barcode before expiration</button>
-            <div class="panel">
-              <div class="panelContent row">
-                <div class="col-lg-5">
-                  <h4>Observation</h4>
-                  <p>Users cannot proactively generate new barcodes on the main page (Fig 1) until the app directs them to the payment failed page (Fig 2).</p>
-                  <h4>Why this matters?</h4>
-                  <p>This may lead to a frustrating scenario where the barcode expires right as shoppers reach the checkout counter. Additionally, the "Back to Home" and "Retry" buttons on the payment failed page can be misinterpreted, causing confusion and potential navigation errors.</p>
-                  <h4>Severity Rating ●●●●○</h4>
-                  <p>Majority will notice it, and it slows down users completing a task.</p>
-                </div>
-                <div class="col-lg-7 audit">
-                  <div class="issueL"> <img src="images/famipay/issue_bardcode_1.webp">
-                    <div class="caption">Fig 1: The main page doesn't have a functionality for users to generate a new barcode.</div>
-                  </div>
-                  <div class="issueR"> <img src="images/famipay/issue_bardcode_2.webp">
-                    <div class="caption">Fig 2: Generating a new barcode is only possible once the current barcode has expired.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-          <div class="mySectionGroup">
-            <h3>III. Visual Design</h3>
+            <h3>II. Visual Design</h3>
             <button class="accordion">1. Maintain visual consistency</button>
             <div class="panel">
               <div class="panelContent row">
@@ -201,6 +159,7 @@
                 </div>
               </div>
             </div>
+			  
             <button class="accordion">2. Provide touch feedback for interactive elements</button>
             <div class="panel">
               <div class="panelContent row">
@@ -235,8 +194,8 @@
                   <p>Majority will notice it, and it slows down users completing a task.</p>
                   <h4>Helpful guidelines</h4>
                   <ul>
-                    <li><a href="https://developer.apple.com/design/human-interface-guidelines/alerts" target="_blank">iOS Alerts</a> </li>
-                    <li><a href="https://m3.material.io/components/dialogs/overview" target="_blank">Material Design guidelines</a> </li>
+                    <li><a href="https://developer.apple.com/design/human-interface-guidelines/alerts" target="_blank" class="blankPg">iOS Alerts</a> </li>
+                    <li><a href="https://m3.material.io/components/dialogs/overview" target="_blank" class="blankPg">Material Design guidelines</a> </li>
                   </ul>
                 </div>
                 <div class="col-lg-7 audit">
@@ -250,6 +209,53 @@
               </div>
             </div>
           </div>
+		<div class="mySectionGroup">
+            <h3>III. Error Correction &amp; Prevention</h3>
+            <button class="accordion">1. Enable users to generate a new barcode before expiration</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>Users cannot proactively generate new barcodes on the main page (Fig 1) until the app directs them to the payment failed page (Fig 2).</p>
+                  <h4>Why this matters?</h4>
+                  <p>This may lead to a frustrating scenario where the barcode expires right as shoppers reach the checkout counter. Additionally, the "Back to Home" and "Retry" buttons on the payment failed page can be misinterpreted, causing confusion and potential navigation errors.</p>
+                  <h4>Severity Rating ●●●●○</h4>
+                  <p>Majority will notice it, and it slows down users completing a task.</p>
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_bardcode_1.webp">
+                    <div class="caption">Fig 1: The main page doesn't have a functionality for users to generate a new barcode.</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_bardcode_2.webp">
+                    <div class="caption">Fig 2: Generating a new barcode is only possible once the current barcode has expired.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="accordion">2. Use text to signal errors</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>If a user enters incorrect credit card details, the app signals an error by changing the text color to red without any explanation.</p>
+                  <h4>Why this matters?</h4>
+                  <p>Using only the red color to convey errors could create a barrier for users with visual impairments. Depending on users' life experience, some users may not be able to understand what to do next when there is no instruction.</p>
+                  <h4>Severity Rating ●●●○○</h4>
+                  <p>Some users will notice it, but it won’t affect the functionality.</p>
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_error_1.webp">
+                    <div class="caption">The credit card numbers turn red when they are invalid, but no further instructions are provided.</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_error_2.webp">
+                    <div class="caption">There is no explanation for why the card expiration date field turns red.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>	
+			
+			
         </div>
         <div class="mySectionGroup">
           <h2 id="list-item-3">Design Ideation</h2>
