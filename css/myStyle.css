@@ -62,7 +62,7 @@ body {
 }
 #myNavBar a:hover, #myFooter a:hover {
   /*color: #002199;*/
-  color: #E82427;
+  color: #FF5B00;
   text-decoration: none;
 }
 #myNavToggle {
@@ -272,8 +272,8 @@ body {
   border-left: thin #CDCDCD solid;
 }
 #mySideNav .active, #mySideNav a:checked {
-  color: #E82427 !important;
-  border-left: 2px #E82427 solid;
+  color: #FF5B00 !important;
+  border-left: 2px #FF5B00 solid;
 }
 #mySideNav li {
   list-style: none;
