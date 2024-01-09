@@ -181,6 +181,9 @@ body {
   font-size: 0.8rem;
   color: #777;
 }
+#oldProject .prjType-personal span{
+  color: #FF5B00;
+}
 #oldProject .prjType-client {
   font-size: 0.8rem;
   color: #777;
