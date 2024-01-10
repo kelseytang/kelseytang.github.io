@@ -491,7 +491,7 @@ body {
   background-color: transparent;
   color: #666;
   cursor: pointer;
-  padding: 0.8rem;
+  padding: 0.8rem 1.5rem 0.8rem 0.8rem;
   width: 100%;
   border-bottom: thin #ccc solid;
   border-top: none;
@@ -501,11 +501,22 @@ body {
   font-size: 1.2rem;
   text-align: left;
   transition: 0.4s;
+	background-image:url("../images/expand.svg");
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+	background-size: auto;
+
 }
 .mySectionGroup .showContent, .accordion:hover {
   outline: none;
   background-color: #EBEBEB;
   color: #000;
+}
+
+.mySectionGroup .showContent{
+	background-image:url("../images/collapse.svg");
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
 }
 .mySectionGroup .panel {
   padding: 0;
@@ -517,19 +528,19 @@ body {
 .mySectionGroup .panel .panelContent {
   margin: 0.8rem 0 0.8rem 0.8rem;
 }
-.mySectionGroup .accordion:after {
-  /*content: '\02795';  Unicode character for "plus" sign (+) 
-	content: '\02795';*/
+ /*.mySectionGroup .accordion:after {
+ content: '\02795';  Unicode character for "plus" sign (+) 
+	content: '\02795';
   content: url("../images/expand.svg");
   float: right;
   margin-left: 5px;
   opacity: 30%;
 }
-.mySectionGroup .showContent:after {
+/*.mySectionGroup .showContent:after {
   content: url("../images/collapse.svg");
-  /*content: "\2796";  Unicode character for "minus" sign (-) 
-	background-image:url("../images/icon_googleDrive.png");*/
-}
+  content: "\2796";  Unicode character for "minus" sign (-) 
+	background-image:url("../images/icon_googleDrive.png");
+}*/
 .blankPg:after {
   /*content: "↗︎";*/
   content: url("../images/newbrowser.svg");
