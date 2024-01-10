@@ -113,6 +113,7 @@ body {
   filter: brightness(90%);
 }
 #latestProject h5, #oldProject .oldProject-card .card-title, #oldProject .horizontal-card .card-title {
+	margin: 10px 0px 10px 0px;
   color: #000;
   /*display: block;
 	margin-bottom: 0px;
