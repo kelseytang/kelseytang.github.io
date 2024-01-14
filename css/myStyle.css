@@ -327,7 +327,7 @@ body {
 }
 .mySectionGroup-screenshot {
   background-color: #F6F5F1;
-  margin-top: 1rem;
+  margin: 1rem;
   padding: 0px;
 }
 /* Screenshot style */
@@ -352,7 +352,7 @@ body {
   border-radius: 1rem;
 }
 #myContent #projectBrief ol, #myContent #projectBrief ul {
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 	margin-left: 0rem;
 }
 
