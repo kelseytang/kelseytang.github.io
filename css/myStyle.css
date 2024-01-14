@@ -99,12 +99,12 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 }
-#latestProject .card, #oldProject .card {
+#latestProject .card, #oldProject .card, #upNext .card {
   border-radius: 0.9rem;
   overflow: hidden;
   margin: 0px 0px 2rem 0px;
 }
-#latestProject .card:hover, #oldProject .card:hover {
+#latestProject .card:hover, #oldProject .card:hover, #upNext .card:hover  {
   display: block;
   /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -192,7 +192,7 @@ body {
 #oldProject .prjType-personal span {
   color: #FF5B00;
 }
-#oldProject .prjType-client {
+#oldProject .prjType-client{
   font-size: 0.8rem;
   color: #777;
 }
@@ -222,7 +222,7 @@ body {
 #myContent {
   background-color: #fdfdf9;
   color: #333333;
-  border-bottom: thin solid #CDCDCD;
+  /*border-bottom: thin solid #CDCDCD;*/
 }
 /* Not in used
 #myContent .divider{
@@ -557,4 +557,46 @@ body {
   display: inline-block;
   vertical-align: sub;
   opacity: 30%;
+}
+
+#upNext {
+	padding-top: 3rem;
+	border-bottom: 1px solid #eee;
+	background-color: #fdfdf9;
+}
+
+#upNext h2 {
+  font-size: 2rem;
+	margin-bottom: 2rem;
+	font-weight: bold;
+}
+
+#upNext .card {
+  border-radius: 0.9rem;
+  overflow: hidden;
+  
+}
+#upNext .card .text-table{
+	display: table;
+}
+#upNext .card .card-body{
+	display:table-cell;
+	vertical-align: middle;
+	
+}
+
+#upNext a {
+  text-decoration: none;
+	color: #000;
+}
+
+#upNext .card .card-title{
+	margin: 0;
+	padding: 0;
+	font-size: 1.1rem;
+}
+
+#upNext  .prjType-client{
+  font-size: 0.8rem;
+  color: #777;
 }
