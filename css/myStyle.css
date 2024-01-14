@@ -14,7 +14,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  border-radius: 16px;
+  border-radius: 0.8rem;
   box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 4px;
   vertical-align: middle;
 }
@@ -100,7 +100,7 @@ body {
   margin-right: 0px;
 }
 #latestProject .card, #oldProject .card, #upNext .card {
-  border-radius: 0.9rem;
+  border-radius: 0.8rem;
   overflow: hidden;
   margin: 0px 0px 2rem 0px;
 }
@@ -349,7 +349,7 @@ body {
   margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
 }
 #myContent #projectBrief ol, #myContent #projectBrief ul {
   padding-left: 1rem;
@@ -572,7 +572,7 @@ body {
 }
 
 #upNext .card {
-  border-radius: 0.9rem;
+  border-radius: 0.8rem;
   overflow: hidden;
   
 }
