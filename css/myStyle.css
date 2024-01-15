@@ -420,12 +420,13 @@ body {
   margin-top: 0px;
   margin-bottom: 3rem;
 }
+
 .auditTXT {
   margin-top: 1.5rem;
 }
 .audit img {
   max-width: 100%;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .audit .suggestion, .audit .original {
   border-radius: 15px;
@@ -433,14 +434,14 @@ body {
   display: inline-block;
   max-width: 49%;
 }
-.audit .issueR, .audit .issueL {
+.audit .issueR, .audit .issueL, .idea .issueR, .idea .issueL {
   /* background:#FFDEDE;*/
   border-radius: 15px;
   padding: 0.5rem;
   display: inline-block;
   max-width: 49%;
 }
-.audit .issue .caption, .audit .issueR .caption, .audit .issueL .caption {
+.audit .caption {
   font-size: 0.8rem;
   margin-top: 0.5rem;
 }
@@ -452,10 +453,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.audit .issueL {
+.audit .issueL, .idea .issueL {
   float: left;
 }
-.audit .issueR {
+.audit .issueR, .idea .issueR {
   float: right;
 }
 .audit .original {
@@ -599,4 +600,12 @@ body {
 #upNext  .prjType-client{
   font-size: 0.8rem;
   color: #777;
+}
+.screenshot_2col{
+	margin-left: auto;
+	margin-right: auto;
+}
+.screenshot_2col img{
+	width: 100%;
+	border-radius: 0.8rem;
 }
