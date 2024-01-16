@@ -305,6 +305,12 @@ body {
   height: auto;
   /*margin-bottom: 16px;*/
 }
+
+#myContent  video{
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
 /* Caption style */
 .mySectionGroup-screenshot .screenshot p, .genScreenshot p {
   /*text-align: center;*/
