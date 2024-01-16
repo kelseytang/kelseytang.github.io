@@ -1,5 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
+:root{
+--BGYellow: #fdfdf9;
+--highlightYellow: #FFF9E0;	
+--grey70:#4d4d4d;
+--grey50:#808080;
+	--grey15:#d9d9d9;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
@@ -19,7 +27,7 @@ body {
   vertical-align: middle;
 }
 #myNavBar {
-  border-bottom: thin solid #CDCDCD;
+  border-bottom: thin solid var(--grey15);
   background-color: #fff;
 }
 /* -- (A) customize Bootstrap's navBar style  */
@@ -82,10 +90,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-#latestProject {
-  background-color: #FFFEF8;
-  padding: 0px;
-}
+
 /* 共同風格*/
 #latestProject, #oldProject {
   padding-top: 4rem;
@@ -93,7 +98,7 @@ body {
 }
 #latestProject h3, #oldProject h3 {
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 #latestProject .card-deck, #oldProject .card-deck {
   margin-left: 0px;
@@ -126,34 +131,8 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
-.latestProject-group {
-  /*padding-top: 1rem;
-	 padding-bottom: 1rem; */
-  border-radius: 1.5rem;
-  padding: 0px;
-  margin: 0px;
-}
-.latestProject-col {
-  padding: 0px;
-  margin: 15px;
-}
-.latestProject-col .textGroup {
-  display: table-cell;
-  vertical-align: middle;
-  height: 292px;
-  padding-left: 15px;
-}
-.latestProject-group p {
-  font-size: 1.5rem;
-}
-.latestProject-group a {
-  color: #000;
-}
-.latestProject-group:hover {
-  filter: brightness(90%);
-  background-color: #FFF6EF;
-}
-.latestProject-group .badge, .oldProject-card .badge {
+
+.oldProject-card .badge {
   border-radius: 1rem;
   padding: 0.4em 1em 0.4em 1em;
   /*background:#F4F3EF;
@@ -161,13 +140,8 @@ body {
   font-weight: normal;
   font-size: 0.7rem;
 }
-.latestProject-group .badge {
-  font-size: 0.7em;
-}
-/* #latestProject img {
-  border-radius: 0.9rem;
-  margin: 0px;
-}*/
+
+
 #oldProject {
   background: #F4F3EF;
 }
@@ -220,16 +194,11 @@ body {
 }
 /* content style */
 #myContent {
-  background-color: #fdfdf9;
+  background-color: var(--BGYellow);
   color: #333333;
   /*border-bottom: thin solid #CDCDCD;*/
 }
-/* Not in used
-#myContent .divider{
-	margin-top: 3rem;
-	text-align: center;
-	color: #959595;
-} */
+
 #myContent #about-hero {
   padding: 60px 0px 40px 0px;
 }
@@ -251,13 +220,20 @@ body {
   padding: 60px 0px 40px 0px;
   text-align: center;
 }
-#myContent #myContent-hero p, .mySectionGroup-heading p {
-  font-size: 1.25rem;
-  color: #888888;
-  padding: 0px;
+#myContent #myContent-hero p {
+  font-size: 1.2rem;
+	color: var(--grey50);
+  padding: 0px 0.5rem 0px 0.5rem;
   margin-top: 1rem;
   line-height: 120%;
+	font-weight: normal;
+	
 }
+
+.mySectionGroup-heading p{
+	font-size: 1rem;
+}
+
 #myContent #myContent-hero h1, #myContent #myContent-hero h1 {
   font-size: 4rem;
   font-weight: lighter;
@@ -277,10 +253,10 @@ body {
   padding-left: 0px;
 }
 #mySideNav a {
-  color: #666;
+  color: var(--grey50);
   padding: 0.3rem 0.5rem 0.3rem 0.5rem;
   display: block;
-  border-left: thin #CDCDCD solid;
+  border-left: thin var(--grey15) solid;
 }
 #mySideNav .active, #mySideNav a:checked {
   color: #FF5B00 !important;
@@ -294,12 +270,14 @@ body {
   /*padding-bottom: 2rem;*/
   margin-bottom: 3rem;
 }
-#myContent h2, h3, h4, #mySideNav-heading {
+#myContent h3, h4, #mySideNav-heading {
   color: #000;
-  font-weight: bold;
+  font-weight:570;
 }
 #myContent h2 {
   font-size: 2rem;
+	font-weight:550;
+	
 }
 #myContent h3 {
   font-size: 1.5rem;
@@ -322,7 +300,7 @@ body {
 .mySectionGroup-title {
   margin-top: 30px;
   text-align: center;
-  letter-spacing: 0.1rem;
+  
   font-size: 1.5rem;
 }
 .mySectionGroup-screenshot {
@@ -344,7 +322,7 @@ body {
 }
 /* END Caption style */
 #myContent #projectBrief {
-  background: #FFF9E0;
+  background:var(--highlightYellow);
   padding: 2rem 1rem 1rem 1rem;
   margin-left: auto;
 	margin-right: auto;
@@ -393,7 +371,7 @@ body {
   text-align: center;
 }
 .mySectionGroup-screenshot .info {
-  background: #FFF9E0;
+  background: var(--highlightYellow);
   padding: 2rem 1rem 2rem 1rem;
 }
 .mySectionGroup-screenshot .info p {
@@ -503,7 +481,7 @@ body {
 }
 .myTable th, td {
   padding: 0.9rem;
-  border: 1px solid #888;
+  border: 1px solid var(--grey15);
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .mySectionGroup .accordion {
@@ -512,7 +490,7 @@ body {
   cursor: pointer;
   padding: 0.8rem 2rem 0.8rem 2rem;
   width: 100%;
-  border-bottom: thin #ccc solid;
+  border-bottom: thin var(--grey15) solid;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -544,6 +522,10 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.mySectionGroup .panel p{
+	padding-bottom: 0.5rem;
+}
 .mySectionGroup .panel .panelContent {
   padding: 2rem;
 }
@@ -574,15 +556,20 @@ body {
 }
 
 #upNext {
-	padding-top: 3rem;
-	border-bottom: 1px solid #eee;
-	background-color: #fdfdf9;
+	padding-top: 2rem;
+	border-bottom: 1px solid var(--grey15);
+	background-color:#F3F3F3;
 }
 
 #upNext h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 	margin-bottom: 2rem;
 	font-weight: bold;
+}
+
+#upNext h2:after{
+	content: "→";
+	margin-left: 0.3rem;
 }
 
 #upNext .card {
@@ -590,6 +577,7 @@ body {
   overflow: hidden;
   
 }
+
 #upNext .card .text-table{
 	display: table;
 }
@@ -614,11 +602,14 @@ body {
   font-size: 0.8rem;
   color: #777;
 }
+
 .screenshot_2col{
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 0.5rem;
 }
 .screenshot_2col img{
 	width: 100%;
 	border-radius: 0.8rem;
+	margin-bottom: 1rem;
 }
