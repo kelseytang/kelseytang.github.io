@@ -355,6 +355,19 @@ body {
   padding-left: 1rem;
 	margin-left: 0rem;
 }
+#projectBrief img{
+	height: 100%;
+	vertical-align: middle;
+	margin-right: 0.6rem;
+}
+
+#projectBrief h5{
+	display: block;
+	height: 2.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+	
+}
 
 .mySectionGroup .paragraph {
   margin-bottom: 2rem;
