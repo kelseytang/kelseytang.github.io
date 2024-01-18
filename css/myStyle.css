@@ -90,24 +90,24 @@ body {
   margin-right: auto;
 }
 /* 共同風格*/
-#latestProject, #oldProject {
+#oldProject {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-#latestProject h3, #oldProject h3 {
+#oldProject h3 {
   font-size: 1.8rem;
   font-weight: 500;
 }
-#latestProject .card-deck, #oldProject .card-deck {
+#oldProject .card-deck {
   margin-left: 0px;
   margin-right: 0px;
 }
-#latestProject .card, #oldProject .card, #upNext .card {
+#oldProject .card, #upNext .card {
   border-radius: 0.8rem;
   overflow: hidden;
   margin: 0px 0px 2rem 0px;
 }
-#latestProject .card:hover, #oldProject .card:hover, #upNext .card:hover {
+#oldProject .card:hover, #upNext .card:hover {
   display: block;
   /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -115,7 +115,7 @@ body {
   background-color: #fff;
   filter: brightness(90%);
 }
-#latestProject h5, #oldProject .oldProject-card .card-title, #oldProject .horizontal-card .card-title {
+#oldProject .oldProject-card .card-title, #oldProject .horizontal-card .card-title {
   margin: 10px 0px 10px 0px;
   color: #000;
   /*display: block;
@@ -191,8 +191,8 @@ body {
 #myContent {
   background-color: var(--BGYellow);
   color: #333333;
-  /*border-bottom: thin solid #CDCDCD;*/
-  border-bottom: 1px solid var(--grey15);
+  /*border-bottom: thin solid #CDCDCD;
+  border-bottom: 1px solid var(--grey15);*/
 }
 #myContent #about-hero {
   padding: 60px 0px 40px 0px;
