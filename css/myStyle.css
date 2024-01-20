@@ -29,11 +29,12 @@ body {
   border-bottom: thin solid var(--grey15);
   background-color: #fff;
 }
+
 /* -- (A) customize Bootstrap's navBar style  */
 #myNavBar .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.2em;
+  height: 1.2em;
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
