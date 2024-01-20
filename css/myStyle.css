@@ -259,6 +259,8 @@ body {
 #mySideNav li {
   list-style: none;
   padding-left: 0px;
+	min-width: 100%;
+	
 }
 .mySectionGroup {
   /*padding-bottom: 2rem;*/
@@ -269,10 +271,11 @@ body {
   color: #000;
   font-weight: 570;
 }
-#myContent h2 {
+/*#myContent h2 {
   font-size: 2rem;
   font-weight: 550;
-}
+	letter-spacing:1px;
+}*/
 #myContent h3 {
   font-size: 1.5rem;
 }
