@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Kelsey Tang | 改善無線更新介面</title>
+<title>Kelsey Tang | nabi®無線更新改版</title>
 <!-- InstanceEndEditable -->
 <!-- Bootstrap -->
 <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
@@ -52,10 +52,9 @@
   <div class="container pt-3" >
     <div id="myContent-hero">
       <div class="row">
-        <div class="col-lg-10 col-md-12">
-          <h1>改善無線更新介面</h1>
-          <p>Redesigned the Over-The-Air update tool for nabi kid tablet.<br>
-            This project aimed to streamline the the OTA flow for non-tech savvy user.</p>
+        <div class="col-lg-10 col-md-12" id="list-item-1">
+          <h1>nabi無線更新改版</h1>
+          <p>重新設計nabi平板電腦的無線更新（Over-the-Air update）的流程</p>
         </div>
       </div>
     </div>
@@ -65,11 +64,11 @@
         <nav class="nav" id="mySideNav">
           <p id="mySideNav-heading">內容大綱：</p>
           <ul class="nav">
-            <li class="nav-item"><a href="#list-item-1" class="nav-link">Project goals</a></li>
-            <li class="nav-item"><a href="#list-item-2" class="nav-link">Root Cause Analysis</a></li>
-            <li class="nav-item"><a href="#list-item-3" class="nav-link">Solution Ideation</a></li>
-            <li class="nav-item"><a href="#list-item-4" class="nav-link">Effort Prioritization</a></li>
-            <li class="nav-item"><a href="#list-item-5" class="nav-link">Final Design</a></li>
+            <li class="nav-item"><a href="#list-item-1" class="nav-link">設計目標</a></li>
+            <li class="nav-item"><a href="#list-item-2" class="nav-link">分析根本原因</a></li>
+            <li class="nav-item"><a href="#list-item-3" class="nav-link">發想解決方案</a></li>
+            <li class="nav-item"><a href="#list-item-4" class="nav-link">規劃工作優先順序</a></li>
+            <li class="nav-item"><a href="#list-item-5" class="nav-link">設計成品</a></li>
           </ul>
         </nav>
       </div>
@@ -86,65 +85,65 @@
       
         <div id="projectBrief" class="row">
           <div class="col-md-6">
-            <h4>Project Goals</h4>
-            Streamlined the Over-the-Air update flow for nabi tablets to increase the success rate of updates.</div>
+            <h4>設計目標</h4>
+            簡化nabi平板電腦的無線更新（Over-the-Air update）的流程，繼而提高更新成功率。</div>
           <div class="col-md-6">
-            <h4>My Role in the Project</h4>
+            <h4>我在專案中負責的工作</h4>
             <ul>
-              <li>Information architechure</li>
-              <li>User interface</li>
-              <li>Prototype</li>
+              <li>規劃資訊架構Information architechure</li>
+              <li>設計UI</li>
+              <li>製作Prototype</li>
             </ul>
           </div>
         </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-2"><span class="headingTag">Root Cause Analysis</span><br>
-			  Inspect Why the Flow Confused People</h2></div>
+          <h2 id="list-item-2"><span class="headingTag">分析根本原因</span><br>
+			  釐清為什麼更新流程令人困惑</h2></div>
 		 <div class="mySectionGroup">
 			<div class="row">
-			 <div class="col-lg-6"><p>Every time we released an update package, the Customer Care team had to spend a lot of time to notify and educate users.</p><p>However, with so much effort, our customers seemed still confused.</p></div>
-				<div class="col-lg-6 rightScreenshot"> <img src="../images/update/update_old.png"><p>↑ The old Update Center UI</p></div>
+			 <div class="col-lg-6"><p>每次我們發布軟體更新，客服團隊就得花費時間通知和教育客戶。但是，做了這麼多努力，客戶依然有操作上的問題。</p></div>
+				<div class="col-lg-6 rightScreenshot"> <img src="../images/update/update_old.png"><p>↑ 舊版更新介面</p></div>
 			 </div>
          
-          <h4>The 3 frequently asked questions and their root cause:</h4>
+          <h4>客戶最常提出的三個問題以及它們造因：</h4>
           <table class="myTable">
             <tbody>
               <tr>
-                <th scope="col">Frequently asked questions</th>
-                <th scope="col">Root cause</th>
+                <th scope="col">最常詢問的問題</th>
+                <th scope="col">造因</th>
               </tr>
               <tr>
-                <td>How do I know my tablet is up to date?</td>
-                <td>Lack of update status</td>
+                <td>要怎麼知道我的平板電腦已經更新到最新版本？</td>
+                <td>缺少軟體更新狀態</td>
               </tr>
               <tr>
-                <td>What should I do to update my tablet?</td>
-                <td>Lack of instruction</td>
+                <td>要怎麼更新我的平板？</td>
+                <td>缺少引導內容</td>
               </tr>
               <tr>
-                <td>The update process went wrong, what should I do?</td>
-                <td>Lack of error handling</td>
+                <td>我更新失敗了，怎麼辦？</td>
+                <td>缺少「錯誤處理」流程</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-3"><span class="headingTag">Solution Ideation</span><br>
-			  Identify the Critical Step in the User Journey</h2></div>
+          <h2 id="list-item-3"><span class="headingTag">發想解決方案</span><br>
+			  找出使用者流程中的關鍵步驟</h2></div>
 			 <div class="mySectionGroup">
-          <p>I drew a diagram to examine the OTA user journey. As illustrated below, the update notification is crucial to the user journey. Without it, the user is unlikely to take any action.</p>
-          <div class="genScreenshot"><img src="../images/update/update_userJourney.png"/>
-            <p>The user journey of the OTA</p>
+          <p>根據下方的使用者流程圖，「更新通知」是啟動是所有更新工作的起始點，也就是說，使用者必須先知道有更新發佈，才有後續動作。</p>
+          <div class="genScreenshot"><img src="images/update/update_userJourney-tw.png"/>
+            <p>↑ 無線更新的使用者流程</p>
           </div>
         </div>
         <div class="mySectionGroup">
-          <h2 id="list-item-4"><span class="headingTag">Effort prioritization</span><br>
-			  Make it easy, then make it pretty</h2></div>
+          <h2 id="list-item-4"><span class="headingTag">規劃工作優先順序</span><br>
+			  先求好用，再求美觀</h2></div>
 		 <div class="mySectionGroup">
-          <p>The objective was to enhance the success rate of updates and reduce the workload of the Customer Care team. To achieve this, we aimed to eliminate any obstacles faced by the customers. After analyzing the user journey and taking into account customer feedback, we concluded that the ugly UI was not as significant a problem as the notification system and instructions. Therefore, we prioritized our focus as below: </p>
-          <div class="genScreenshot"><img src="../images/update/update_priority.webp"/> </div>
-         <div class="mySectionGroup"><h2 id="list-item-5"><span class="headingTag">Final Design</span><br>
-            The Page Flow</h2></div>
+          <p>為了提高更新成功率以減少客服團隊的工作量，我們把工作重點放在移除更新流程的潛在障礙。至於介面的美醜，根據客戶的回饋和使用者流程分析，我們認為它的投資效益沒有「更新通知」來得高： </p>
+          <div class="genScreenshot"><img src="images/update/update_priority-tw.webp"/> </div>
+         <div class="mySectionGroup"><h2 id="list-item-5"><span class="headingTag">設計成品</span><br>
+            頁面流程</h2></div>
 			 
 			 <div class="mySectionGroup">   <div class="genScreenshot">
             <video width="100%" controls="controls" muted="muted" loop="loop" >
@@ -153,36 +152,36 @@
             </video>
           </div></div>
 			 <div class="mySectionGroup">
-          <h2><span class="headingTag">Final Design</span><br>
-            The New System Update Flow</h2>
+          <h2><span class="headingTag">設計成品</span><br>
+            新版更新流程</h2>
 			 
 			 </div>
 			 <div class="mySectionGroup">
           <div class="genScreenshot"><img src="../images/update/update_install.webp" class="roundedCorner"/>
-            <p>↑ The system prompts users when the update is ready.</p>
+            <p>↑ 系統會通知使用者更新流程已經準備好。</p>
           </div>
           <div class="genScreenshot"><img src="../images/update/update_system.webp" class="roundedCorner"/>
-            <p>↑ The System Update page provide detailed release notes. </p>
+            <p>↑ 系統更新頁有詳細的更新內容。 </p>
           </div>
           <div class="genScreenshot"><img src="../images/update/update_damage.webp" class="roundedCorner"/>
-            <p>↑ Before installing updates, the system will verify files to prevent installation failure due to corrupted files.</p>
+            <p>↑ 安裝更新檔案之前，系統會先驗證檔案以避免有檔案損毀而造成更新失敗。</p>
           </div>
           <div class="genScreenshot"><img src="../images/update/update_lowBattery.webp" class="roundedCorner"/>
-            <p>↑ To avoid update failures, the system prompts users to connect the charger before the installation proceeds.</p>
+            <p>↑ 為了避免更新失敗，系統會請使用者在更新開始前先連接電源。</p>
           </div>
           <div class="genScreenshot"><img src="../images/update/update_UI_up-to-date.webp" class="roundedCorner"/>
-            <p>↑ Once updated, the tablet displays "Your System is Up to Date" on the page.</p>
+            <p>↑ 更新成功後，平板電腦會在畫面顯示「系統已是最新版本」。</p>
           </div>
           <h2><span class="headingTag">Final Design</span><br>
-            The centralized Place for Updating Built-in Tools</h2>
+            為內建軟體設計一個專區</h2>
           <div class="genScreenshot"><img src="../images/update/update_UI_nabiApp.webp" class="roundedCorner"/>
-            <p>↑ The update information for the nabi® built-in tools is centralized on the nabi Utilities page.</p>
+            <p>↑ nabi®內建軟體全部集中至nabi Utilities頁面。</p>
           </div>
           <div class="genScreenshot"><img src="../images/update/update_UI_history.webp" class="roundedCorner"/>
-            <p>↑ Users can check the release notes for recent updates.</p>
+            <p>↑ 使用者可以查看近期的更新細項說明。</p>
           </div>
           <div class="genScreenshot"><img src="../images/update/update_UI_Restoration.webp" class="roundedCorner"/>
-            <p>↑ A centralized place for users to update or restore the gift apps.</p>
+            <p>↑ 把nabi®附贈的遊戲軟體集中放置在同一區塊，以方便使用者更新或是重新安裝。</p>
 				 </div></div>
         </div>
       </main>
@@ -214,7 +213,7 @@
             <div class="col-md-7">  <a href="parental.html" class="stretched-link"><img src="../images/thumb/parental_thumb.png" class="card-img" alt="The image of the Parental Control"> </a></div>
             <div class="col-md-5 text-table">
               <div class="card-body">
-                <a href="parental.html" class="stretched-link"><h5 class="card-title">Parental Controls</h5></a>
+                <a href="parental.html" class="stretched-link"><h5 class="card-title">nabi 家長監護系統改版</h5></a>
               </div>
             </div>
           </div>
