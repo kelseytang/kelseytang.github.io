@@ -11,8 +11,23 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
 }
+#MyNavBarContent li{
+	display: table;
+	
+}
+#MyNavBarContent li a{
+	display: table-cell;
+	vertical-align: middle;
+}
 #MyNavBarContent .navbar-nav .active {
   color: #AEAEAE;
+}
+#MyNavBarContent .dropdown-menu a{
+	display: block;
+}
+
+#MyNavBarContent #navbarDropdown{
+	display: block;
 }
 #myMobileNavBar {
   background-color: #fff;
