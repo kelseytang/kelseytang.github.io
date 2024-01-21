@@ -321,11 +321,11 @@
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
             <h3>情境 #04</h3>
-            <p>A user is creating an account. When they come to the step where they are asked to enter their name, they get an error message. A fraud detection software thinks their name is fake—but it’s wrong 5% of the time.</p>
+            <p>使用者在註冊帳號的時候，系統在他們輸入姓名的時候顯示錯誤訊息。因為防弊軟體偵測到他們使用假名字，不過有5%機會誤判。</p>
           </div>
           <div class="col-md-6">
             <h4>挑戰任務</h4>
-            <p>Write an error message that prompts them to fix the error without shaming them for having a fake-sounding name.</p>
+            <p>寫一則錯誤訊息，提示使用者更正錯誤，但不能指控使用者填寫假名字。</p>
           </div>
           <div class="col-md-6">
             <h4>字數限制</h4>
@@ -333,16 +333,15 @@
           </div>
           <div class="mySectionGroup-screenshot">
             <div class="screenshot"><img src="../images/uxw/Error-D12.png"/>
-              <p align="left"><span class="captionNum">A</span>The UI label tells the user to input the name on the ID card. <br>
-                <span class="captionNum">B</span>When the error occurs,the app reminds the uers to use the name on the ID card, and explain what could cause errors</p>
+              <p align="left"><span class="captionNum">A</span>標題告知使用者輸入身分證上的姓名。<br><span class="captionNum">B</span>APP再次提醒使用者必須使用身分證上的姓名，以及錯誤發生的原因。</p>
             </div>
             <div class="info row" style="margin: 0px">
               <div class="col-lg-6">
                 <h4>溝通策略</h4>
                 <ol>
-                  <li>Avoid blaming users, explain what could cause this error</li>
-                  <li>If the name doesn't contains digits or symbol, the app should not block users as the system is not 100% correct</li>
-                  <li>A simple way to clarify the term "real name" is to instruct the user to use the name appeared on their ID card</li>
+                  <li>訊息應解釋錯誤的發生原因，而不是指控使用者</li>
+                  <li>只要輸入的名字沒有數字和符號，則APP不必阻擋使用者繼續進行流程，因為系統可能誤判</li>
+                  <li>直接告知使用者輸入「身分證」上的姓名，避免有人錯誤解讀</li>
                 </ol>
               </div>
               <div class="col-lg-6">
@@ -354,11 +353,11 @@
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
             <h3>情境 #05</h3>
-            <p>A user is shopping using a price comparison app that boasts “real-time” pricing on items. As they are checking the price of an item, something goes wrong. The problem is unknown.</p>
+            <p>使用者正在使用比價APP查看商品價格，不過APP出現不明的錯誤。</p>
           </div>
           <div class="col-md-6">
             <h4>挑戰任務</h4>
-            <p>Write a message that informs the user that they cannot access the app right now.  You cannot specify "why" the app doesn't work, you also want them to continue using the app.</p>
+            <p>攥寫一則訊息，告訴使用者APP暫時無法使用，請他們稍後繼續使用，但不能告訴使用者發生什麼原因。</p>
           </div>
           <div class="col-md-6">
             <h4>字數限制</h4>
@@ -368,15 +367,18 @@
           </div>
           <div class="mySectionGroup-screenshot">
             <div class="screenshot"><img src="../images/uxw/Error-D14.png"/>
-              <p align="center"><span class="captionNum">A</span>When the error occurs, the Search button is disabled.<span class="captionNum">B</span>An error message with a countdown timer informs users that the app is trying to reconnect.</p>
+              <p align="center"><span class="captionNum">A</span>當錯誤發生時，先停用「開始搜尋」按鈕。<span class="captionNum">B</span>在錯誤訊息中加入倒數計時，讓使用者知道APP正嘗試連線。</p>
             </div>
             <div class="info row" style="margin: 0px">
               <div class="col-lg-6">
                 <h4>溝通策略</h4>
                 <ol>
-                  <li>The app should not block users from using it or deleting all input data, therefore, using inline notification instead of the dialog componment</li>
-                  <li>Since the action for the user is to wait, the message focuses on keeping the user informed about the current situation</li>
-                  <li>Include a countdown timer in the error message to inform the users that the app is reconnecting to the system.</li>
+                  <li>APP不應該阻擋使用者操作介面，或是刪除已經輸入的資料。因此「inline notification」比「dialog/alert」更適合處理這個情境
+
+</li>
+                  <li>在這個情況下，使用者唯一能做的只有「等待」。因此，訊息要讓使用者理解當前的「狀態」
+</li>
+                  <li>加入倒數計時器的目的是讓使用者知道APP仍在運作，並嘗試重新連線</li>
                 </ol>
               </div>
               <div class="col-lg-6">
@@ -388,11 +390,11 @@
         <div class="row mySectionGroup" >
           <div class="col-md-12 mySectionGroup-heading">
             <h3>情境 #06</h3>
-            <p>The user is trying to view a website to help them buy a car. But, the content can’t load without the user’s location. They need to enter their ZIP code and first name.</p>
+            <p>使用者正在汽車交易網站上搜尋車子。但是，網站需要使用者的地理位置才能載入資料。使用者必須提供郵遞區號和名字。</p>
           </div>
           <div class="col-md-6">
             <h4>挑戰任務</h4>
-            <p>Ask them where they live and who they are without sounding like you're unnecessarily mining their data.</p>
+            <p>詢問使用者住在哪裡以及他們的名字，但不能讓他們感覺網站在搜集隱私資料。</p>
           </div>
           <div class="col-md-6">
             <h4>字數限制</h4>
@@ -402,15 +404,14 @@
           </div>
           <div class="mySectionGroup-screenshot">
             <div class="screenshot"><img src="../images/uxw/Error-D10.png"/>
-              <p align="center"> To create a sense of personalization, the search feature should be disabled initially (fig A). <br>
-                After that, show the form to greet the user and ask for their "preferred" name and the city where they plan to buy their car.</p>
+              <p align="center"> 為了營造個人化服務，網站先遮蓋「搜尋」介面（左圖的A），然後向使用者打招呼，詢問該他們的稱呼、打算在哪個城市購買車子。</p>
             </div>
             <div class="info row" style="margin: 0px">
               <div class="col-lg-6">
                 <h4>溝通策略</h4>
                 <ol>
-                  <li>Be friendly to create a sense of personalization</li>
-                  <li>Incorporate emojis to amplify the friendliness</li>
+                  <li>營造親切、個人化的感覺</li>
+                  <li>使用表情符號增加親切感</li>
                 </ol>
               </div>
               <div class="col-lg-6">
