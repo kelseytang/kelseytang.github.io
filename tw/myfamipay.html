@@ -55,7 +55,7 @@
       <div class="row">
         <div class="col-lg-10">
           <h1 id="list-item-1">易用性健檢：全家支付</h1>
-          <p>全支付（My FamiPay）是專屬全家便利商店的行動支付服務。<br>*這篇易用性健診報告僅為參考範例，並非我在Google Play的工作成果。</p>
+          <p>全家支付（My FamiPay）是專屬全家便利商店的行動支付服務。<br>*這篇易用性健診報告僅為參考範例，並非我在Google Play的工作成果。</p>
         </div>
       </div>
     </div>
@@ -128,49 +128,50 @@
           
           <div class="mySectionGroup">
             <h3>I. 內容設計</h3>
-            <button class="accordion">1. 為綁卡流程增加誘因，讓資訊更透明</button>
+            <button class="accordion">1. 為綁卡流程增加誘因，並讓資訊更加透明</button>
             <div class="panel">
               <div class="panelContent row">
 				  <div class="col-lg-5"> <h4>觀察到的問題</h4>
-                  <p>The app lacks clarity in explaining the benefits of linking credit cards and distinguishing between My FamiPay and PlusPay. Moreover, the credit card validation fee of NT$ 1 is not disclosed upfront.
+                  <p>綁卡流程缺乏完整的引導和誘因。例如：頁面未說明「全家支付」和「全盈+Pay」是不同服務。APP也沒有解釋信用卡驗證費用是否會退回。
 					</p>
                   <h4>為什麼要關心這個問題？</h4>
-                  <p>For certain users, mobile payment may be a novel concept, and in Taiwan, where credit card details are considered highly confidential, a lack of transparency can potentially  undermine users' confidence and trust, leaving them hesitant to try the service.
-</p>
+                  <p>手機支付對於某些使用者來說是相當新穎的概念。另外，由於信用卡資訊在台灣被視為隱私機密，若是資訊不透明，可能會影響使用意願。</p>
                   <h4>嚴重度指數：4/5</h4>
 					<p> 大多數的使用者會注意到此問題，並因此拖慢他們完成工作的速度。</p></div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="../images/famipay/issue_onboarding_1.webp">
-                    <div class="caption">The PlusPay and the My FamiPay are different services, but the app doesn't provide explanation.</div>
+                    <div class="caption">↑ 「全家支付」和「全盈+Pay」是不同服務，但是APP沒有提供任何說明。</div>
                   </div>
                   <div class="issueR"> <img src="../images/famipay/issue_onboarding_2.webp">
-                    <div class="caption">Users will be charged NT$1 during the validation process.</div>
+                    <div class="caption">↑ 信用卡驗證過程會收取台幣1塊錢。</div>
                   </div>
                 </div>
                 
               </div>
             </div>
             
-            <button class="accordion">2. Have concise writing</button>
+            <button class="accordion">2. 使用精簡易懂的文字</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
-                  <h4>觀察到的問題</h4>
-                  <p>Some content seems wordy and unclear. For example, the alert in Fig. 1 clarifies the buttons' functionality because their labels do not reflect the actual actions.</p>
+                  <h4>觀察到的問題：</h4>
+                  <p>有些文字似乎過於冗長不夠精確。例如圖示一的對話方塊，大篇幅的說明文都在解釋按鈕的功能，因為按鈕標籤的字義與實際功能不同。
+					</p>
                   <h4>為什麼要關心這個問題？</h4>
-                  <p>Mobile users tend to glance at texts, so using succinct content is easier to digest and understand.</p>
+                  <p>使用手機時，人們多以掃視略讀內容。因此，精簡的短文會比長文更易閱讀、理解。</p>
                   <h4>嚴重度指數：4/5</h4>
 					<p> 大多數的使用者會注意到此問題，並因此拖慢他們完成工作的速度。</p>
-                  <h4>Helpful guidelines</h4>
-					<ul><li><a href="https://m2.material.io/design/communication/confirmation-acknowledgement.html" target="_blank" class="blankPg">Material's writing guidelines</a></li></ul>
+                  <h4>參考文章：</h4>
+					<ul><li><a href="https://m2.material.io/design/communication/confirmation-acknowledgement.html" target="_blank" class="blankPg">Material's writing guidelines</a></li>
+					<li><a href="https://developer.apple.com/design/human-interface-guidelines/writing" target="_blank" class="blankPg">Apple - Writing for interface</a></li></ul>
                 
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="../images/famipay/issue_uxw_2.webp">
-                    <div class="caption">Fig 1: The app tells users that the Cancel button means "Continue" and the Confirm" means "Cancel".</div>
+                    <div class="caption">圖示一：對話方塊解釋「取消」按鈕代表「繼續」，「確認」按鈕代表離開。</div>
                   </div>
                   <div class="issueR"> <img src="../images/famipay/issue_uxw_1.webp">
-                    <div class="caption">Fig 2: The <b>Confirm</b> and the <b>Cancel</b> buttons don't conveny the actual actions.</div>
+                    <div class="caption">圖示二：「確認」和「取消」按鈕標籤的字義與實際功能不同。</div>
                   </div>
                 </div>
               </div>
@@ -184,19 +185,19 @@
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>觀察到的問題</h4>
-                  <p>The app has several components that are not consistently presented throughout the app. For example, the passcode input UIs in Fig 2 are inconsistent.</p>
+                  <p>APP內有許多元件的設計不一致，像是圖示二中的交易密碼介面，沒有統一的設計。</p>
                   <h4>為什麼要關心這個問題？</h4>
-                  <p>People tend to rely on their experience to respond and interact with the world. If the design is inconsistent, people have to put extra mental effort into learning and remembering. Additionally, design inconsistency also creates a negative impression as it looks unprofessional.</p>
+                  <p>使用者傾向依賴過往的經驗來操作事物。在看到不一致的設計時，使用者會需要思考、學習，認知負擔因而增加。此外，不一致的設計可能會讓使用者認為設計不夠專業，進而產生不好的印象。</p>
                   <h4>嚴重度指數：3/5</h4>
                   <p>有些使用者會注意到問題，但問題並不影響操作。</p>
                  
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="../images/famipay/issue_consistency_1.webp">
-                    <div class="caption">Inconsistent top bars can be spotted in the app.</div>
+                    <div class="caption">圖示一：Top Bar的Logo、字體大小不同。</div>
                   </div>
                   <div class="issueR"> <img src="../images/famipay/issue_consistency_2.webp">
-                    <div class="caption">The passcode interface in the app is inconsistent.</div>
+                    <div class="caption">圖示二：APP內的交易密碼的輸入介面長得不一樣。</div>
                   </div>
                 </div>
               </div>
@@ -207,34 +208,34 @@
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>觀察到的問題</h4>
-                  <p>Many interactive elements do not provide sufficient visual feedback upon touch.</p>
+                  <p>大多數的按鈕都沒有足夠明顯的觸控回饋。</p>
                   <h4>為什麼要關心這個問題？</h4>
-                  <p>Touch feedback provides confirmation and highlights tappable areas for users to easily distinguish where their input has been received.</p> <p>This is particularly useful when users' devices are not powerful.</p>
-                  <h4>Severity Rating ●●○○○</h4>
-                  <p>Minor users will notice it, but they can tolerate it.</p>
+                  <p>觸控回饋提供使用者某種程度的「操作確認感」，讓他們可以辨認觸控的接收區域，特別是在低效能的手機上</p>
+                  <h4>嚴重度指數：2/5</h4>
+                  <p>少數使用者會注意到這個問題，但可以容忍。</p>
               
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="../images/famipay/issue_touch_1.webp">
-                    <div class="caption">Most interactive elements don't have touch feedback.</div>
+                    <div class="caption">↑ 大多數的按鈕都沒有觸控回饋。</div>
                   </div>
                   <div class="issueR"> <img src="../images/famipay/issue_touch_2.webp">
-                    <div class="caption">The barcode button doesn't provide any visual feedback upon tap.</div>
+                    <div class="caption">↑ 條碼可以點擊，不過點擊時，沒有任何視覺上的回饋。</div>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="accordion">3. 避免使用「Alert/Dialog」元件來展示複雜內容</button>
+            <button class="accordion">3. 避免使用對話方塊（Alert/Dialog）來展示複雜內容</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>觀察到的問題</h4>
-                  <p>The app uses the Alert/Dialog component to display lengthy information. </p>
+                  <p>APP使用對話方塊元件（Alert/Dialog）來展示長文。</p>
                   <h4>為什麼要關心這個問題？</h4>
-                  <p>Due to the characteristics of the Alert/Dialog component, the information lacks proper formatting, which makes it harder for people to comprehend. Moreover, the Alert/Dialog component also limits the content team's ability to include all necessary information.</p>
+                  <p>限於對話方塊的特質，資訊缺乏妥當的排版，因而產生閱讀和理解的障礙。另外對話方塊可能會限縮溝通效率，因為重要資訊必須刪減。</p>
                   <h4>嚴重度指數：4/5</h4>
 					<p> 大多數的使用者會注意到此問題，並因此拖慢他們完成工作的速度。</p>
-                  <h4>Helpful guidelines</h4>
+                  <h4>參考文章：</h4>
                   <ul>
                     <li><a href="https://developer.apple.com/design/human-interface-guidelines/alerts" target="_blank" class="blankPg">iOS Alerts</a> </li>
                     <li><a href="https://m3.material.io/components/dialogs/overview" target="_blank" class="blankPg">Material Design guidelines</a> </li>
@@ -242,10 +243,10 @@
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="../images/famipay/issue_dialog_1.webp">
-                    <div class="caption">The alert is used to communicate legal agreement and posible imapacts after switching to PlusPay. </div>
+                    <div class="caption">↑ 升級至全盈+Pay時，APP使用對話方塊來溝通法律協議。</div>
                   </div>
                   <div class="issueR"> <img src="../images/famipay/issue_dialog_2.webp">
-                    <div class="caption">The alert component communicates non-actionable information — the limited use of member points.</div>
+                    <div class="caption">↑ APP使用對話方塊來展示服務說明。</div>
                   </div>
                 </div>
               </div>
@@ -258,23 +259,23 @@
               <div class="panelContent row">
                 <div class="col-lg-5">
                   <h4>觀察到的問題</h4>
-                  <p>Users cannot proactively generate new barcodes on the main page (Fig 1) until the app directs them to the payment failed page (Fig 2).</p>
+                  <p>使用者不能更新結帳條碼，他們必須等到條碼過期後，由「付款失敗」頁面（圖示二）點選「重試」才能取得新的付款條碼。而條碼的有效時間只有兩分鐘。</p>
                   <h4>為什麼要關心這個問題？</h4>
-                  <p>This may lead to a frustrating scenario where the barcode expires right as shoppers reach the checkout counter. Additionally, the "Back to Home" and "Retry" buttons on the payment failed page can be misinterpreted, causing confusion and potential navigation errors.</p>
+                  <p>結帳條碼可會在使用者準備付費的那一刻過期，而導致使用者備感挫折。另外，「付款失敗」頁面中的按鈕標籤不夠精準，使用者可能因此解讀錯誤。.</p>
                   <h4>嚴重度指數：4/5</h4>
 					<p> 大多數的使用者會注意到此問題，並因此拖慢他們完成工作的速度。</p>
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="../images/famipay/issue_bardcode_1.webp">
-                    <div class="caption">Fig 1: The main page doesn't have a functionality for users to generate a new barcode.</div>
+                    <div class="caption">圖示一：付款頁面沒有任何功能可以更新條碼。</div>
                   </div>
                   <div class="issueR"> <img src="../images/famipay/issue_bardcode_2.webp">
-                    <div class="caption">Fig 2: Generating a new barcode is only possible once the current barcode has expired.</div>
+                    <div class="caption">圖示二：使用者只能等到過期後才能重新取得新的條碼。</div>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="accordion">2. 用文字標示錯誤</button>
+            <button class="accordion">2. 在「錯誤處理」狀態中增加用文字指示</button>
             <div class="panel">
               <div class="panelContent row">
                 <div class="col-lg-5">
@@ -287,10 +288,10 @@
                 </div>
                 <div class="col-lg-7 audit">
                   <div class="issueL"> <img src="../images/famipay/issue_error_1.webp">
-                    <div class="caption">The credit card numbers turn red when they are invalid, but no further instructions are provided.</div>
+                    <div class="caption">↑ 輸入錯誤的信用卡號碼時，數字會立即變成紅色的。APP未提供近一步指示。</div>
                   </div>
                   <div class="issueR"> <img src="../images/famipay/issue_error_2.webp">
-                    <div class="caption">There is no explanation for why the card expiration date field turns red.</div>
+                    <div class="caption">↑ APP沒有解釋為什麼有效月年欄位變成紅色。</div>
                   </div>
                 </div>
               </div>
@@ -301,7 +302,7 @@
           <h2 id="list-item-3">設計建議</h2></div>
 			<div class="mySectionGroup row">
 				<div class="screenshot_2col row">
-				  <div class="col-lg-6 col-md-6"><img src="../images/famipay/suggestion/redesign_0_a.png"></div>
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/redesign_0_a-tw.png"></div>
 				<div class="col-lg-6 col-md-6"><img src="../images/famipay/suggestion/redesign_0_b.png"></div>
 				</div>
           
