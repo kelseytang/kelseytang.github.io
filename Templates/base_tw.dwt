@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Kelsey Tang | Works </title>
+<!-- TemplateEndEditable -->
 <!-- Favicon --->
 <link rel="shortcut icon" href="https://kelseytang.github.io/images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="https://kelseytang.github.io/images/favicon.ico" type="image/x-icon">
@@ -14,7 +15,7 @@
 <link rel="apple-touch-icon" sizes="152x152" href="https://kelseytang.github.io/images/favicon_152.png">
 <link rel="apple-touch-icon" sizes="180x180" href="https://kelseytang.github.io/images/favicon_180.png">
 <link rel="apple-touch-icon" sizes="167x167" href="https://kelseytang.github.io/images/favicon_167.png">
-<!-- TemplateEndEditable -->
+
 <!-- Bootstrap -->
 <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
 <!-- my style sheet -->
