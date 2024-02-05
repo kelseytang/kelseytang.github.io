@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Kelsey Tang | Works </title>
-<!-- Favicon --->
+	<!-- Favicon --->
 <link rel="shortcut icon" href="https://kelseytang.github.io/images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="https://kelseytang.github.io/images/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="https://kelseytang.github.io/images/favicon_192.png">
@@ -20,10 +20,21 @@
 <link href="../css/myStyle.css" rel="stylesheet" type="text/css">	
 <!-- my style sheet -->
 <link href="../css/myStyle.css" rel="stylesheet" type="text/css">
-	<link href="../css/enStyle.css" rel="stylesheet" type="text/css">
+<link href="../css/enStyle.css" rel="stylesheet" type="text/css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MN5C3VLZ');</script>
+<!-- End Google Tag Manager -->
 </head>
 <!-- TemplateBeginEditable name="BodyAttribute" -->
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN5C3VLZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <!-- TemplateEndEditable -->
 <!-- body code goes here -->
 <nav class="navbar navbar-expand-lg" id="myNavBar">
