@@ -159,6 +159,7 @@ body {
 #oldProject .card .card-text {
   font-size: 0.9rem;
   line-height: 1.2rem;
+	margin: 8px 0px 8px 0px;
   color: #333;
   display: block;
   min-height: 2.5rem;
@@ -183,7 +184,13 @@ body {
 }
 #oldProject .prjClass {
   font-size: 0.8rem;
-  color: #888;
+  color: #717171;
+	background-color:#EFF4F5;
+	display: inline-block;
+	padding:2px 10px 2px 10px;
+	border-radius: 0.8rem;
+	margin-right: 4px;
+	
   /*font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"*/
 }
 #oldProject a {
