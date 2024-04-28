@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Kelsey Tang | Garmin's gamification improvement</title>
+<title>Kelsey Tang | Garmin Connect</title>
 <!-- InstanceEndEditable -->
 <!-- Favicon --->
 <link rel="shortcut icon" href="https://kelseytang.github.io/images/favicon.ico" type="image/x-icon">
@@ -31,6 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <!-- InstanceBeginEditable name="BodyAttribute" -->
 <body id="myScrollSpyBody" data-spy="scroll" data-target="#mySideNav" data-offset="10">
+
 <!-- InstanceEndEditable -->
 <!-- body code goes here -->
 <nav class="navbar navbar-expand-lg" id="myNavBar">
@@ -61,68 +62,331 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="container pt-3" >
     <div id="myContent-hero">
       <div class="row">
-        <div class="col-lg-10 col-md-12">
-          <h1>Garmin's gamification improvement</h1>
-          <p>The remote control app for the Aristotle smart speaker’s built-in feature — playing stories.</p>
+        <div class="col-lg-10">
+          <h1 id="list-item-1">Garmin Connect</h1>
+          <p>My FamiPay is a mobile payment service exclusively for the FamilyMart stores in Taiwan. This is just an example to demonstrate how I conduct an audit review.</p>
         </div>
       </div>
     </div>
-    <!-- <div id="myContent-hero">
-      <h1>Parental Controls Tool</h1>
-      <p>A built-in tool on nabi tablets for parents to manage and monitor tablet activity</p>
-    </div> -->
+    
     <div class="row" > 
       <!-- side menu -->
       <div class="d-none d-md-block col-md-2 order-1 order-md-2 pl-3">
         <nav class="nav" id="mySideNav">
           <p id="mySideNav-heading">On this page:</p>
           <ul class="nav">
-            <li class="nav-item"><a href="#list-item-1" class="nav-link">Background</a></li>
-            
-            <li class="nav-item"><a href="#list-item-2" class="nav-link">User Interfaces</a></li>
-            <li class="nav-item"><a href="#list-item-3" class="nav-link">The User Flow</a></li>
+            <li class="nav-item"><a href="#list-item-1" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#list-item-2" class="nav-link">Identified Opportunities</a></li>
+            <li class="nav-item"><a href="#list-item-3" class="nav-link">Redesign</a></li>
           </ul>
         </nav>
       </div>
       
       <!-- End of side menu -->
       <main class="col-md-10 order-md-1 order-2" >
-        <div class="topScreenshot">
-          <video width="100%" preload="auto" controls="controls" muted="muted" loop="loop" >
-            <source src="images/story/story_flow.webm" type="video/webm">
-            <source src="images/story/story_flow.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div id="projectBrief" class="row">
+        
+		  <div class="topScreenshot row">
+			<!--  <img src="images/famipay/famipay_cover.webp" alt="Cover"/> -->
+		 <div class="col-lg-6 col-md-6">
+           <video width="100%" preload="auto" controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+             <source src="images/famipay/suggestion/Original.webm" type="video/webm">
+             <source src="images/famipay/suggestion/Original.mp4" type="video/mp4">
+           </video>
+				  </div>
+				<div class="col-lg-6 col-md-6">
+				  <video width="100%" preload="auto" controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+				    <source src="images/famipay/suggestion/After.webm" type="video/webm">
+				    <source src="images/famipay/suggestion/After.mp4" type="video/mp4">
+			      </video>
+				</div>
+				</div> 
+		 
+		  
+		  <div id="projectBrief" class="row">
+			  
+			  <div class="col-md-12 mb-3"><h4>My Principle of the Usability Audit</h4></div>
+			  <div class="col-lg-4"><h5><img src="images/famipay/icon_eye.svg"/>Visibility</h5><p>All important information can be read comfortably.</p></div>
+			  <div class="col-lg-4"><h5><img src="images/famipay/icon_brain.svg"/>Conprehension</h5><p>Information is easy to understand.</p></div>
+			  <div class="col-lg-4"><h5><img src="images/famipay/icon_action.svg"/>Control</h5>Interactive elements are functional and easy to use.</div>
+			  
+			  
+			  </div>
+			  <!--
           <div class="col-md-6">
-            <h4 id="list-item-1">Background</h4>
-            <p>Aristotle — a kid-focus smart speaker integrated with smart lights. Among Aristotle's features is Story Time, which lets users play stories and customize settings such as light effects, sound volume, and sleep timer. The project focused on designing user interfaces for the Story Time feature.</p>
+            <h4>What is usability audit?</h4>
+            <p>Usability Audit uses research-based evidence to evaluate the design quality. The goal is to help designers and business stakeholders identify potential issues and optimization opportunities.</p>
+
+<p>The impact of suggestions in the audit report should be quantifiable and measurable.</p>
           </div>
           <div class="col-md-6">
-            <h4>My Role in the Project</h4>
+            <h4>Review Criteria</h4>
             <ol>
-              <li>Created wireframes and user flows</li>
-              <li>Designed the user interfaces</li>
-              <li>Built high-fidelity prototypes</li>
+              <li><a href="https://www.w3.org/TR/WCAG21/" target="_blank" class="blankPg">Web Content Accessibility Guidelines</a></li>
+              <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank" class="blankPg">10 Usability Heuristics for UI Design</a></li>
+              <li><a href="https://developer.apple.com/design/human-interface-guidelines/writing" target="_blank" class="blankPg">Apple - Writing for interface</a></li>
+              <li><a href="https://m3.material.io/foundations/content-design/overview" target="_blank" class="blankPg">Material Design - Content design</a></li>
+              <li><a href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/principles-of-mobile-app-design-introduction/" target="_blank" class="blankPg">Principles of Mobile App Design</a></li>
             </ol>
           </div>
-        </div>
+-->
         
-			
-        <div class="mySectionGroup">
-          <h2 id="list-item-2"><span class="headingTag">Design</span><br>
-			  User Interfaces</h2></div>
-			<div class="mySectionGroup">
-          <div class="genScreenshot"><img src="images/story/story_UI.webp" alt="The user interface"/> </div>
-        </div>
-        <div class="mySectionGroup">
-          <h2 id="list-item-3"><span class="headingTag">Design</span><br>
-			  The User flow</h2></div>
-			<div class="mySectionGroup">
-          <div class="genScreenshot"><img src="images/story/story_IA.webp" alt="The flow chart about the user flow"/>
-            <p>This chart is a simplified overview of the preparatory work necessary before user can control the speaker. </p>
+		 <div class="mySectionGroup">
+            <h2 id="list-item-2">Identified Opportunities</h2>
+          </div> 
+      
+          
+          <div class="mySectionGroup">
+            <h3>I. Content Design</h3>
+            <button class="accordion">1. Make the credit card linking process incentivized and imfomative</button>
+            <div class="panel">
+              <div class="panelContent row">
+				  <div class="col-lg-5"> <h4>Observation</h4>
+                  <p>The app lacks clarity in explaining the benefits of linking credit cards and distinguishing between My FamiPay and PlusPay. Moreover, the credit card validation fee of NT$ 1 is not disclosed at all.
+					</p>
+                  <h4>Why this matters?</h4>
+                  <p>For certain users, mobile payment may be a novel concept, and in Taiwan, where credit card details are considered highly confidential, a lack of transparency can potentially  undermine users' confidence and trust, leaving them hesitant to try the service.
+</p>
+                  <h4>Severity Rating ●●●●○</h4>
+					
+					<p> Majority will notice it, and it slows down users completing a task.</p></div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_onboarding_1.webp">
+                    <div class="caption">The PlusPay and the My FamiPay are different services, but the app doesn't provide explanation.</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_onboarding_2.webp">
+                    <div class="caption">Users will be charged NT$1 during the validation process.</div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <button class="accordion">2. Have concise writing</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>Some content seems wordy and unclear. For example, the alert in Fig. 1 clarifies the buttons' functionality because their labels do not reflect the actual actions.</p>
+                  <h4>Why this matters?</h4>
+                  <p>Mobile users tend to glance at texts, so using succinct content is easier to digest and understand.</p>
+                  <h4>Severity Rating ●●●●○</h4>
+                  <p>Majority will notice it, and it slows down users completing a task.</p>
+                  <h4>Helpful guidelines</h4>
+					<ul><li><a href="https://m2.material.io/design/communication/confirmation-acknowledgement.html" target="_blank" class="blankPg">Material's writing guidelines</a></li></ul>
+                
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_uxw_2.webp">
+                    <div class="caption">Fig 1: The app tells users that the Cancel button means "Continue" and the Confirm" means "Cancel".</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_uxw_1.webp">
+                    <div class="caption">Fig 2: The <b>Confirm</b> and the <b>Cancel</b> buttons don't conveny the actual actions.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+          
+          <div class="mySectionGroup">
+            <h3>II. Visual Design</h3>
+            <button class="accordion">1. Maintain visual consistency</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>There are several components that are not consistently presented throughout the app. For example, the passcode input UIs in Fig 2 are inconsistent.</p>
+                  <h4>Why this matters?</h4>
+                  <p>People tend to rely on their experience to respond and interact with the world. If the design is inconsistent, people have to put extra mental effort into learning and remembering. Additionally, design inconsistency also creates a negative impression as it looks unprofessional.</p>
+                  <h4>Severity Rating ●●●○○</h4>
+                  <p>Some users will notice it, but it won’t affect the functionality.</p>
+                 
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_consistency_1.webp">
+                    <div class="caption">Inconsistent top bars can be spotted in the app.</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_consistency_2.webp">
+                    <div class="caption">The passcode interface in the app is inconsistent.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+            <button class="accordion">2. Provide touch feedback for interactive elements</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>Many interactive elements do not provide sufficient visual feedback upon touch.</p>
+                  <h4>Why this matters?</h4>
+                  <p>Touch feedback provides confirmation and highlights tappable areas for users to easily distinguish where their input has been received.</p> <p>This is particularly useful when users' devices are not powerful.</p>
+                  <h4>Severity Rating ●●○○○</h4>
+                  <p>Minor users will notice it, but they can tolerate it.</p>
+              
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_touch_1.webp">
+                    <div class="caption">Most interactive elements don't have touch feedback.</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_touch_2.webp">
+                    <div class="caption">The barcode button doesn't provide any visual feedback upon tap.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="accordion">3. Avoid using the Alert/Dialog component for lengthy content</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>The app uses the Alert/Dialog component to display lengthy information. </p>
+                  <h4>Why this matters?</h4>
+                  <p>Due to the characteristics of the Alert/Dialog component, the information lacks proper formatting, which makes it harder for people to comprehend. Moreover, the Alert/Dialog component also limits the content team's ability to include all necessary information.</p>
+                  <h4>Severity Rating ●●●●○</h4>
+                  <p>Majority will notice it, and it slows down users completing a task.</p>
+                  <h4>Helpful guidelines</h4>
+                  <ul>
+                    <li><a href="https://developer.apple.com/design/human-interface-guidelines/alerts" target="_blank" class="blankPg">iOS Alerts</a> </li>
+                    <li><a href="https://m3.material.io/components/dialogs/overview" target="_blank" class="blankPg">Material Design guidelines</a> </li>
+                  </ul>
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_dialog_1.webp">
+                    <div class="caption">The alert is used to communicate legal agreement and posible imapacts after switching to PlusPay. </div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_dialog_2.webp">
+                    <div class="caption">The alert component communicates non-actionable information — the limited use of member points.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		<div class="mySectionGroup">
+            <h3>III. Error Correction &amp; Prevention</h3>
+            <button class="accordion">1. Enable users to generate a new barcode before expiration</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>Users cannot proactively generate new barcodes on the main page (Fig 1) until the app directs them to the payment failed page (Fig 2).</p>
+                  <h4>Why this matters?</h4>
+                  <p>This may lead to a frustrating scenario where the barcode expires right as shoppers reach the checkout counter. Additionally, the "Back to Home" and "Retry" buttons on the payment failed page can be misinterpreted, causing confusion and potential navigation errors.</p>
+                  <h4>Severity Rating ●●●●○</h4>
+                  <p>Majority will notice it, and it slows down users completing a task.</p>
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_bardcode_1.webp">
+                    <div class="caption">Fig 1: The main page doesn't have a functionality for users to generate a new barcode.</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_bardcode_2.webp">
+                    <div class="caption">Fig 2: Generating a new barcode is only possible once the current barcode has expired.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="accordion">2. Use text to signal errors</button>
+            <div class="panel">
+              <div class="panelContent row">
+                <div class="col-lg-5">
+                  <h4>Observation</h4>
+                  <p>If a user enters incorrect credit card details, the app signals an error by changing the text color to red without any explanation.</p>
+                  <h4>Why this matters?</h4>
+                  <p>Using only the red color to convey errors could create a barrier for users with visual impairments. Depending on users' life experience, some users may not be able to understand what to do next when there is no instruction.</p>
+                  <h4>Severity Rating ●●●○○</h4>
+                  <p>Some users will notice it, but it won’t affect the functionality.</p>
+                </div>
+                <div class="col-lg-7 audit">
+                  <div class="issueL"> <img src="images/famipay/issue_error_1.webp">
+                    <div class="caption">The credit card numbers turn red when they are invalid, but no further instructions are provided.</div>
+                  </div>
+                  <div class="issueR"> <img src="images/famipay/issue_error_2.webp">
+                    <div class="caption">There is no explanation for why the card expiration date field turns red.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>	
+
+        <div class="mySectionGroup">
+          <h2 id="list-item-3">Redesign</h2></div>
+			<div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_0_a.png"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_0_b.png"></div>
+				</div>
+          
+			</div>
+		 <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"> <video width="100%" preload="auto" controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+				    <source src="images/famipay/suggestion/original_typing.webm" type="video/webm">
+				    <source src="images/famipay/suggestion/original_typing.mp4" type="video/mp4">
+			      </video></div>
+				<div class="col-lg-6 col-md-6"><video width="100%" preload="auto" controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+				    <source src="images/famipay/suggestion/after_typing.webm" type="video/webm">
+				    <source src="images/famipay/suggestion/after_typing.mp4" type="video/mp4">
+			      </video></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_1_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_1_b.webp"></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_2_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_2_b.webp"></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_8_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_8_b.webp"></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_3_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_3_b.webp"></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_4_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_4_b.webp"></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_5_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_5_b.webp"></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_6_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_6_b.webp"></div>
+				</div>
+          
+			</div>
+		  <div class="mySectionGroup row">
+				<div class="screenshot_2col row">
+				  <div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_7_a.webp"></div>
+				<div class="col-lg-6 col-md-6"><img src="images/famipay/suggestion/redesign_7_b.webp"></div>
+				</div>
+          
+			</div>
+			
+        
       </main>
       <p></p>
     </div>
@@ -133,16 +397,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <div class="container-fluid" id="upNext">
   <div class="container" >
-    <h2>More projects</h2>
+    <h2>More projects </h2>
     <div class="row">
 		<div class="col-lg-4">
         <div class="card">
           <div class="row no-gutters">
-            <div class="col-md-7">  <a href="scale.html" class="stretched-link"><img src="images/thumb/scale_thumb.png" class="card-img" alt="The image of the Body Composition Scale"> </a></div>
+            <div class="col-md-7">  <a href="uxw.html" class="stretched-link"><img src="images/thumb/uxw_thumb-small.webp" class="card-img" alt="The image of the UX Writing Challenges"> </a></div>
             <div class="col-md-5 text-table">
               <div class="card-body">
-                <a href="scale.html" class="stretched-link">
-					<h5 class="card-title">Body Composition Scale</h5></a>
+                <a href="uxw.html" class="stretched-link">
+					<h5 class="card-title">UX Writing Challenges</h5></a>
               </div>
             </div>
           </div>
@@ -151,10 +415,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="col-lg-4">
         <div class="card">
           <div class="row no-gutters">
-            <div class="col-md-7">  <a href="parental.html" class="stretched-link"><img src="images/thumb/parental_thumb.png" class="card-img" alt="The image of the Parental Control"> </a></div>
+            <div class="col-md-7">  <a href="monitor.html" class="stretched-link"><img src="images/thumb/monitor_thumb-small.png" class="card-img" alt="The image of the Aristotle Baby Monitor"> </a></div>
             <div class="col-md-5 text-table">
               <div class="card-body">
-                <a href="parental.html" class="stretched-link"><h5 class="card-title">New nabi Parental Controls</h5></a>
+                <a href="monitor.html" class="stretched-link"><h5 class="card-title">Aristotle Baby Monitor</h5></a>
               </div>
             </div>
           </div>
@@ -163,10 +427,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="col-lg-4">
         <div class="card">
           <div class="row no-gutters">
-            <div class="col-md-7">  <a href="updatecenter.html" class="stretched-link"><img src="images/thumb/update_thumb.png" class="card-img" alt="The image of the Parental Control"> </a></div>
+            <div class="col-md-7">  <a href="story.html" class="stretched-link"><img src="images/thumb/story_thumb-small.jpg" class="card-img" alt="The image of the Aristotle Story Time"> </a></div>
             <div class="col-md-5 text-table">
               <div class="card-body">
-                <a href="updatecenter.html" class="stretched-link"><h5 class="card-title">nabi Update Center Revamp</h5></a>
+                <a href="story.html" class="stretched-link">
+					<h5 class="card-title">Aristotle Story Time</h5></a>
               </div>
             </div>
           </div>
@@ -177,6 +442,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("showContent");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script> 
+
 <!-- END myContent -->
 <!-- InstanceEndEditable -->
 <footer id="myFooter" class="container pt-3">
