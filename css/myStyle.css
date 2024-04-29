@@ -159,7 +159,7 @@ body {
 #oldProject .card .card-text {
   font-size: 0.9rem;
   line-height: 1.2rem;
-	margin: 8px 0px 8px 0px;
+margin: 6px 0px 6px 0px;
   color: #333;
   display: block;
   min-height: 2.5rem;
@@ -172,18 +172,18 @@ body {
   background-color: #fff;
 }
 #oldProject .prjType-personal {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #777;
 }
 #oldProject .prjType-personal span {
   color: #FF5B00;
 }
 #oldProject .prjType-client {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #777;
 }
 #oldProject .prjClass {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #717171;
 	background-color:#EFF4F5;
 	display: inline-block;
